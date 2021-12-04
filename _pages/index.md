@@ -8,8 +8,8 @@ permalink: /
 # Welcome! 🌱
 
 # Ideas
-[[How to Think]]
-[[Swift UI]]
+- [[How to Think]]
+- [[SwiftUI]]
 
 # Tips 
 
