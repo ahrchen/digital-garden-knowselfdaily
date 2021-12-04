@@ -9,7 +9,7 @@ permalink: /
 
 # Ideas
 [[How to Think]]
-
+[[Swift UI]]
 
 # Tips 
 
