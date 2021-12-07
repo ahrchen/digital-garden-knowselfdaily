@@ -5,6 +5,8 @@ title: SwiftUI
 ### Welcome!
 
 ### Topics
+- [[SwiftUI Menu Options]]
+- [[SwiftUI Image]]
 - [[Swift Result Type]]
-- [[SwiftUI Tabs]]
 - [[Swift Environment Object]]
+- [[Swift ObservableObject Manually Publishing Changes]]
