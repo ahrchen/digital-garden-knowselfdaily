@@ -6,7 +6,10 @@ title: SwiftUI
 
 ### Topics
 - [[SwiftUI Menu Options]]
+- [[SwiftUI Notifications]]
+- [[SwiftUI Haptics]]
+- [[SwiftUI Gestures]]
+- [[SwiftUI Scope Shared Objects]]
 - [[SwiftUI Image]]
 - [[Swift Result Type]]
-- [[Swift Environment Object]]
-- [[Swift ObservableObject Manually Publishing Changes]]
+- [[Swift Package Dependencies]]
