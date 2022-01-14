@@ -1,10 +1,10 @@
 ---
-title: Swift Environment Object
+title: Swift Environment Wrapper
 ---
 
 ### Main Idea
 
-We use Environment Objects to share values from one parent to multiple children 
+We use Environment Wrapper to share values from one parent to multiple children 
 
 ```swift
 class User: ObservableObject {
