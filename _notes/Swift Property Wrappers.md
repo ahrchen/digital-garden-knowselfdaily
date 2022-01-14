@@ -1,5 +1,5 @@
 ---
-title: Swift Property Wrapper
+title: Swift Property Wrappers
 ---
 
 ### Main Idea

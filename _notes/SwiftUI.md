@@ -9,7 +9,7 @@ title: SwiftUI
 - [[SwiftUI Notifications]]
 - [[SwiftUI Haptics]]
 - [[SwiftUI Gestures]]
-- [[Swift Property Wrapper]]
+- [[Swift Property Wrappers]]
 - [[SwiftUI Image]]
 - [[Swift Result Type]]
 - [[Swift Package Dependencies]]
