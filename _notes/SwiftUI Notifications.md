@@ -1,5 +1,5 @@
 ---
-title: SwiftUI
+title: SwiftUI Notifications
 ---
 
 ### Welcome!
