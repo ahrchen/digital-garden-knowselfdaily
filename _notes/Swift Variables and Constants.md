@@ -1,5 +1,5 @@
 ---
-title: Swift Float
+title: Swift Variable and Constants
 ---
 
 ### Main Idea
