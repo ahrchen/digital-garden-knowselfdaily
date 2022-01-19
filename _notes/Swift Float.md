@@ -16,4 +16,11 @@ A basic data type that holds a floating point number. Float -> Double(double-pre
 // 1 + 2.0 cannot add int and double b./c we want only small error not but one.
 // Name = “nick”
 // Name = 57 NONONO, cannot change 
+
+// Resolve Decimal rounding issues using ints
+// https://www.advancedswift.com/rounding-floats-and-doubles-in-swift/
+let floatNum = Double(0.1)
+let floatNum2 = Double(0.2)
+print(round(((floatNum + floatNum2) * 10)) / 10)
+
 ```
