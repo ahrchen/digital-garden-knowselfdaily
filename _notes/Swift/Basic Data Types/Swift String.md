@@ -59,4 +59,25 @@ let luggageCode = "1" + "2" + "3" + "4" + "5"
 // “1234” + "5"
 // “12345"
 
+// separate a string in to array
+let input = "a b c"
+let letters = input.components(separatedBy: " ")
+let letter = letters.randomElement()
+
+// Trim
+
+let trimmed = letter?.trimmingCharacters(in: .whitespacesAndNewlines)
+
+// UITextChecker the ability to check for misspelled words. 
+// -- 1. From UIKit
+// -- 2. Written in Objective-C
+
+let word = "swift"
+let checker = UITextChecker()
+// Use Objc-C text range 
+let range = NSRange(location: 0, length: word.utf16.count)
+// Check the string at a range
+let misspelledRange = checker.rangeOfMisspelledWord(in: word, range: range, startingAt: 0, wrap: false, language: "en")
+// No Misspelling found is NSNotFound
+let allGood = misspelledRange.location == NSNotFound
 ```

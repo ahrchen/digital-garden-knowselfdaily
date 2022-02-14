@@ -10,6 +10,7 @@ permalink: /
 # Ideas
 - [[How to Think]]
 - [[Swift]]
+- [[Swift Frameworks]]
 - [[SwiftUI Basics]]
 - [[SwiftUI]]
 - [[SwiftUI100DaysProjects]]

@@ -5,6 +5,8 @@ title: SwiftUI Views And Modifiers
 ### Main Idea
 Views are a generic form of the UI. Unlike UIKit where views are classes due to inheritance, views here are structs. 
 
+Remember, all something needs to do in order to conform to the View protocol is to have a single computed property called body that returns some View.
+
 Assume Modifiers creates a new view with that change applied so ORDER matters.
 
 Opaque return types is used everytime we write some View. One object that conforms to the View protocol, but we don't want to say what. We are returning complex view with ModifiedContent and TupleView with multiple views inside.
