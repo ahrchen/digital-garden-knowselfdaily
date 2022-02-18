@@ -13,3 +13,4 @@ title: Swift
 - [[Swift Property Wrappers]]
 - [[Swift App Bundle]]
 - [[Swift Timer]]
+- [[Swift Animations]]
