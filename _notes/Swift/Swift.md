@@ -10,7 +10,7 @@ title: Swift
 - [[Swift Complex Data Types]]
 - [[Swift Unique Types]]
 - [[Swift Techniques]]
-- [[Swift Property Wrappers]]
 - [[Swift App Bundle]]
 - [[Swift Timer]]
 - [[Swift Animations]]
+- [[Swift Storage]]

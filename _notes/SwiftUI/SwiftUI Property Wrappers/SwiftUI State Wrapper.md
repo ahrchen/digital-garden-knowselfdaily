@@ -8,6 +8,9 @@ SwiftUI uses the @State property wrapper to allow us to modify values inside a s
 
 When we put @State before a property, we effectively move its storage out from our struct and into shared storage managed by SwiftUI. This means SwiftUI can destroy and recreate our struct whenever needed (and this can happen a lot!), without losing the state it was storing.
 
+A new Struct object is created each time the values in the struct changes.
+
+
 Use onChange() to watch for changes to the State Wrapper and respond to state changes
 
 ### Usage
