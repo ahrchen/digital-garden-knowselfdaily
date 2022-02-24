@@ -1,5 +1,5 @@
 ---
-title: SwiftUI Basics
+title: SwiftUI Basic Views
 ---
 
 ### Welcome!
@@ -14,4 +14,5 @@ title: SwiftUI Basics
 - [[SwiftUI Alerts]]
 - [[SwiftUI Spacers]]
 - [[SwiftUI Views and Modifiers]]
+- [[SwiftUI ScrollView]]
 

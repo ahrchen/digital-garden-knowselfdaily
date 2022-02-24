@@ -6,4 +6,4 @@ title: SwiftUI Image
 
 ### Topics
 - [[Image Interpolation]]
-
+- [[Image GeometryReader]]

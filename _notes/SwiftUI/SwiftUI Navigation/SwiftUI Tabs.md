@@ -1,5 +1,5 @@
 ---
-title: Swift Tabs
+title: SwiftUI Tabs
 ---
 
 ### Main Idea
