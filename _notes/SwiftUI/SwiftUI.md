@@ -12,5 +12,4 @@ title: SwiftUI
 - [[SwiftUI Gestures]]
 - [[SwiftUI Property Wrappers]]
 - [[SwiftUI Image]]
-- [[SwiftUI Sheets]]
 - [[SwiftUI Navigation]]

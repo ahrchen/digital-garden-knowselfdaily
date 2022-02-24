@@ -12,7 +12,6 @@ permalink: /
 - [[Swift]]
 - [[SwiftUI]]
 - [[Swift Frameworks]]
-- [[SwiftUI100DaysProjects]]
 
 # Tips 
 
