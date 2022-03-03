@@ -1,5 +1,5 @@
 ---
-title: Swift Complex Data Types
+title: Swift Techniques
 ---
 
 ### Main Idea

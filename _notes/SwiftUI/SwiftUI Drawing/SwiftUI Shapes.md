@@ -91,4 +91,33 @@ struct ContentView: View {
             .strokeBorder(.blue, lineWidth: 40)
     }
 }
+
+struct Arrow: Shape {
+    
+    func path(in rect: CGRect) -> Path {
+        var path = Path()
+        path.move(to: CGPoint(x: rect.midX, y: rect.midY))
+        path.addLine(to: CGPoint(x: rect.midX, y: rect.minY))
+        path.addLine(to: CGPoint(x: rect.minX, y: rect.midY / 2))
+        path.move(to: CGPoint(x: rect.midX, y: rect.minY))
+        path.addLine(to: CGPoint(x: rect.maxX, y: rect.midY / 2))
+        return path
+    }
+}
+
+struct ContentView: View {
+    @State private var lineWidth = 10.0
+    
+    var body: some View {
+        VStack {
+            withAnimation{
+                Arrow()
+                    .stroke(.red, style: StrokeStyle(lineWidth: CGFloat(lineWidth), lineCap: .round, lineJoin: .round))
+                    .frame(width: 200, height: 300)
+            }
+            Slider(value: $lineWidth, in: 1...50)
+        }
+        
+    }
+}
 ```
