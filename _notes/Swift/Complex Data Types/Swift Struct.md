@@ -1,5 +1,5 @@
 ---
-title: Swift Structs
+title: Swift Struct
 ---
 
 ### Main Idea

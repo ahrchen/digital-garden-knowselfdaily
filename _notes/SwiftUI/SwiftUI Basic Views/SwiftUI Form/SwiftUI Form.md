@@ -8,6 +8,7 @@ Forms are scrolling lists of static controls like text and images, but can also 
 #### Topics
 - [[SwiftUI Stepper]]
 - [[SwiftUI DatePicker]]
+- [[SwiftUI Form Validation]]
 
 ```swift
 var body: some View {

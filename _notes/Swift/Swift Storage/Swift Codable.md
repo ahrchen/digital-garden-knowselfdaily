@@ -8,6 +8,9 @@ Swift gives us a fantastic protocol called Codable: a protocol specifically for 
 
 We’re going to be looking at Codable much more in future projects, but for now we’re going to keep it as simple as possible: we want to archive a custom type so we can put it into UserDefaults, then unarchive it when it comes back out from UserDefaults.
 
+### Topics
+- [[Swift Codable @Published Comformance]]
+
 ```swift
 struct User: Codable {
     let firstUser: String

@@ -7,11 +7,19 @@ permalink: /
 
 # Welcome! 🌱
 
-# Ideas
-- [[How to Think]]
+
+# iOS Development
 - [[Swift]]
 - [[SwiftUI]]
 - [[Swift Frameworks]]
+- [[100_Days_of_SwiftUI]]
+
+# Interviewing
+- [[Algorithms]]
+
+# Ideas
+- [[How to Think]]
+
 
 # Tips 
 

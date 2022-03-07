@@ -11,8 +11,6 @@ A complex data type holds multiple value at a time, grouping data together
 - [[Swift Loops]]
 - [[Swift Functions]]
 - [[Swift Closures]]
-- [[Swift Structs]]
-- [[Swift Class]]
 - [[Swift Protocols]]
 - [[Swift Extensions]]
 - [[Swift Optionals]]
