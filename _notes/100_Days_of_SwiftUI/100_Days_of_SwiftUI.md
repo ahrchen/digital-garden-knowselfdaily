@@ -5,6 +5,7 @@ title: 100_Days_of_SwiftUI
 ### Welcome!
 
 ### Projects
+- [CupcakeCorner](https://github.com/ahrchen/100DaysOfSwiftUI-Projects-CupcakeCorner)
 - [MoonShot](https://github.com/ahrchen/100DaysOfSwiftUI-Project-Moonshot)
 - [iExpense](https://github.com/ahrchen/100DaysOfSwiftUI-projects-iExpense)
 - [Word Scramble](https://github.com/ahrchen/100DaysSwiftUI-Project-WordScramble)
