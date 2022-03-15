@@ -31,3 +31,4 @@ title: Algorithms
 - [FizzBuzz Algorithm Problem](https://youtu.be/QaygQrRypQY)
 - [Win After Last Round](https://youtu.be/ezFblixGQYg)
 - [Repeating Strings](https://youtu.be/Xq7waDGOZYE)
+- [Split List](https://youtu.be/9-6exO_fRV4)

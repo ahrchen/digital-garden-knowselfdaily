@@ -6,3 +6,4 @@ title: Swift Frameworks
 
 ### Topics
 - [[Swift Framework ML]]
+- [[Swift Framework CoreData]]

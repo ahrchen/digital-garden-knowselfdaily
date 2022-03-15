@@ -8,6 +8,7 @@ An attribute placed around a property that gives it custom abilities. For exampl
 
 #### Topics
 - [[SwiftUI State Wrapper]]
+- [[SwiftUI Binding]]
 - [[SwiftUI ObservedObject Wrapper]]
 - [[SwiftUI FocusState Wrapper]] 
 - [[SwiftUI StateObject Wrapper]]
