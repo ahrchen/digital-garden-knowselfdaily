@@ -11,7 +11,7 @@ title: SwiftUI Basic Views
 - [[SwiftUI Color]]
 - [[SwiftUI Gradient]]
 - [[SwiftUI Buttons]]
-- [[SwiftUI Alerts]]
+- [[SwiftUI Popup Windows]]
 - [[SwiftUI Spacers]]
 - [[SwiftUI Views and Modifiers]]
 - [[SwiftUI ScrollView]]

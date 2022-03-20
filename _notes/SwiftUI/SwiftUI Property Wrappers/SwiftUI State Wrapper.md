@@ -11,11 +11,13 @@ When we put @State before a property, we effectively move its storage out from o
 A new Struct object is created each time the values in the struct changes.
 
 
-Use onChange() to watch for changes to the State Wrapper and respond to state changes
 
 ### Usage
 
 ```swift
+
+// Use onChange() to watch for changes to the State Wrapper and respond to state changes
+
 struct ContentView: View {
     @State private var blurAmount = 0.0 
     

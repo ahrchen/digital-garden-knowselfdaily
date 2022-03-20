@@ -4,6 +4,8 @@ title: 100_Days_of_SwiftUI
 
 ### Welcome!
 
+All of these were sourced from https://www.hackingwithswift.com/100/swiftui
+
 ### Projects
 - [Day 57 - Day 59 CoreDataProject](https://github.com/ahrchen/100DaysofSwiftUI-Project-CoreDataProject)
 - [Day 53 - Day 56 Bookworm](https://github.com/ahrchen/100DaysOfSwiftUI-Projects-Bookworm)
