@@ -5,6 +5,11 @@ title: Swift Protocols
 ### Main Idea
 Protocols let us create blueprints of how our types share functionality, then use those blueprints in our functions to let them work on a wider variety of data. they let us define what kinds of functionality we expect a data type to support, and Swift ensures that the rest of our code follows those rules.s
 
+### Topics
+
+- [[Swift Comparable Protocol]]
+
+
 ```swift
 func commute(distance: Int, using vehicle: Car) {
     // lots of code here

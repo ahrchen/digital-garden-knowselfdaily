@@ -8,4 +8,5 @@ title: Swift Storage
 
 - [[Swift UserDefaults]]
 - [[Swift Codable]]
+- [[Swift Documents Directory]]
 
