@@ -7,9 +7,11 @@ title: 100_Days_of_SwiftUI
 All of these were sourced from https://www.hackingwithswift.com/100/swiftui
 
 ### Projects
-- [Day 57 - Day 59 CoreDataProject](https://github.com/ahrchen/100DaysofSwiftUI-Project-CoreDataProject)
-- [Day 53 - Day 56 Bookworm](https://github.com/ahrchen/100DaysOfSwiftUI-Projects-Bookworm)
-- [Day 49 - Day 52 CupcakeCorner](https://github.com/ahrchen/100DaysOfSwiftUI-Projects-CupcakeCorner)
+- [Day 68 -> Day 73 BucketList](https://github.com/ahrchen/100DaysofSwiftUI-Projects-BucketList)
+- [Day 60 -> Day 67 InstaFilter](https://github.com/ahrchen/100DaysOfSwiftUI-Project-Instafilter)
+- [Day 57 -> Day 59 CoreDataProject](https://github.com/ahrchen/100DaysofSwiftUI-Project-CoreDataProject)
+- [Day 53 -> Day 56 Bookworm](https://github.com/ahrchen/100DaysOfSwiftUI-Projects-Bookworm)
+- [Day 49 -> Day 52 CupcakeCorner](https://github.com/ahrchen/100DaysOfSwiftUI-Projects-CupcakeCorner)
 - [Day 39 -> Day 42 - MoonShot](https://github.com/ahrchen/100DaysOfSwiftUI-Project-Moonshot)
 - [Day 36 -> Day 38 - iExpense](https://github.com/ahrchen/100DaysOfSwiftUI-projects-iExpense)
 - [Day 29 -> Day 31 - Word Scramble](https://github.com/ahrchen/100DaysSwiftUI-Project-WordScramble)
