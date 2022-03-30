@@ -1,5 +1,5 @@
 ---
-title: Swift Framework CoreData
+title: Swift Framework CoreImage
 ---
 
 ### Main Idea
