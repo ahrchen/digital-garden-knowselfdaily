@@ -12,6 +12,7 @@ Property wrappers have that name because they wrap our property inside another s
 - [[SwiftUI State Wrapper]]
 - [[SwiftUI Binding]]
 - [[SwiftUI ObservedObject Wrapper]]
+- [[SwiftUI ObservableObject Wrapper]]
 - [[SwiftUI FocusState Wrapper]] 
 - [[SwiftUI StateObject Wrapper]]
 - [[SwiftUI Environment Wrapper]]

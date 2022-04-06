@@ -9,8 +9,9 @@ When using observed objects there are three key things we need to work with: the
 Tip: It is really important that you use @ObservedObject only with views that were passed in from elsewhere. You should not use this property wrapper to create the initial instance of an observable object – that’s what @StateObject is for.
 
 ### Link
-- [[Swift ObservableObject Manually Publishing Changes]]
+- [[SwiftUI ObservableObject Wrapper]]
 - [[SwiftUI StateObject Wrapper]]
+
 ### Usage
 
 ```swift
