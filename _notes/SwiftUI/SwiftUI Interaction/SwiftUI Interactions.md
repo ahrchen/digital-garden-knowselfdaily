@@ -10,3 +10,4 @@ Most of this is sourced from https://www.hackingwithswift.com/100/swiftui
 - [[SwiftUI Haptics]]
 - [[SwiftUI Context Menus]]
 - [[SwiftUI Custom Row Swipe Actions]]
+- [[SwiftUI HitTesting]]
