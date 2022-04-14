@@ -40,6 +40,22 @@ title: Algorithms
 
 ### Medium Algorithms
 
+- [Perfect Squares](https://youtu.be/pbM3wzCkabI)
+- [Course Scheduling](https://youtu.be/qN3-6-A0SFo)
+- [Keys and Rooms / Unlock Rooms](https://youtu.be/1LOil9nLuzw)
+- [Anagram Substrings](https://youtu.be/TG-G1LnMJ3M)
+- [Remove Duplicate Numbers](https://youtu.be/EW0rToGrYeQ)
+- [Making Change](https://youtu.be/NlykJmqtgV0)
+- [Longest Strictly Increasing Then Decreasing Sublist Part 2](https://youtu.be/DYri7oYnyjY)
+- [Longest Strictly Increasing Then Decreasing Sublist Part 1](https://youtu.be/gH_bDZ7oB3E)
+- [Reflected Binary Code](https://youtu.be/4geuLy9OZcM)
+- [Longest Consective Sequence](https://youtu.be/7W6oYrFYnBg)
+- [List Partition](https://youtu.be/hIBSBl36iD8)
+- [Hit Counter](https://youtu.be/fAvplh4PmNc)
+- [Largest Sum of Non-Adjacent Numbers](https://youtu.be/tETRcyfHkRY)
+- [Number of Palindromic Substrings](https://youtu.be/zA5E8MNJK8I)
+- [Unique String Frequencies](https://youtu.be/B5_oyRuqBjQ)
+- [Trie](https://youtu.be/sZrA9x2-WfI)
 - [Sudoku Solver](https://www.youtube.com/watch?v=3QzysyYwH40)
 - [Rain Catcher Part 2](https://www.youtube.com/watch?v=OVOg37whYc8)
 - [Rain Catcher Part 1](https://www.youtube.com/watch?v=Bvge3QYbvLo)
@@ -70,3 +86,6 @@ title: Algorithms
 - [Integer to Roman Numeral](https://www.youtube.com/watch?v=-WomV86CQbM)
 - [Number of Islands](https://www.youtube.com/watch?v=q3CtPeFsKGc)
 - [Look and Say](https://www.youtube.com/watch?v=oQXNmwSJPUQ&t=4s)
+
+### Neetcode 150
+- [Playlist](https://youtube.com/playlist?list=PLMbUi6HtzLDwsjpcAy91RH5aUAhf1lbas)
