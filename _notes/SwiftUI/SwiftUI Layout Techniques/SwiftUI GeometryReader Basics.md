@@ -1,5 +1,5 @@
 ---
-title: SwiftUI GeometryReader
+title: SwiftUI GeometryReader Basics
 ---
 
 ### Main Idea
