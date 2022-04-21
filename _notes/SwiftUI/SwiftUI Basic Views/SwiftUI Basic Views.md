@@ -10,6 +10,7 @@ title: SwiftUI Basic Views
 - [[SwiftUI Stacks]]
 - [[SwiftUI Color]]
 - [[SwiftUI Gradient]]
+- [[SwiftUI Groups]]
 - [[SwiftUI Buttons]]
 - [[SwiftUI Popup Windows]]
 - [[SwiftUI Spacers]]

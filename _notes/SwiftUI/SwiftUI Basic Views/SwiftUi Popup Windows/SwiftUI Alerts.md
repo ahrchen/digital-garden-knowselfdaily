@@ -39,4 +39,27 @@ Button("Show Alert") {
 }
 ```
 
+Use optional objects that conform to the identifiable protocol
 
+```swift
+struct ContentView: View {
+    struct User: Identifiable {
+        var id = "Taylor Swift"
+    }
+    
+    @State private var selectedUser: User? = nil
+    @State private var isShowingUser = false
+    
+    var body: some View {
+        Text("Hello, world!")
+            .onTapGesture {
+                selectedUser = User()
+                isShowingUser = true
+            }
+            .alert("Welcome", isPresented: $isShowingUser, presenting: selectedUser) { user in
+                Button(user.id) {}
+            }
+    }
+}
+
+```

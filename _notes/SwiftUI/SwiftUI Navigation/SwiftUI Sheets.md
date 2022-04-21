@@ -1,5 +1,5 @@
 ---
-title: Swift Sheets
+title: SwiftUI Sheets
 ---
 
 ### Main Idea
@@ -28,6 +28,27 @@ struct ContentView: View {
         .sheet(isPresented: $showingSheet) {
             SecondView(name: "@two")
         }
+    }
+}
+```
+
+You can also show sheets using optionals object that conforms to the identifiable protocol 
+```swift
+struct ContentView: View {
+    struct User: Identifiable {
+        var id = "Taylor Swift"
+    }
+    
+    @State private var selectedUser: User? = nil
+    
+    var body: some View {
+        Text("Hello, world!")
+            .onTapGesture {
+                selectedUser = User()
+            }
+            .sheet(item: $selectedUser) { user in
+                Text(user.id)
+            }
     }
 }
 ```
