@@ -12,5 +12,6 @@ Most of this is sourced from https://www.hackingwithswift.com/100/swiftui
 - [[SwiftUI Custom Alignment]]
 - [[SwiftUI Geometry Reader]]
 - [[SwiftUI How Layout Works]]
+- [[SwiftUI Multiple Views Side by Sde]]
 - [[SwiftUI Switch View with Enums]]
 - [[SwiftUI TabView]] 
