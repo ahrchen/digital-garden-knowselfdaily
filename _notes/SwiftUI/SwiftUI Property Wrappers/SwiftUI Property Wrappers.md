@@ -17,3 +17,4 @@ Property wrappers have that name because they wrap our property inside another s
 - [[SwiftUI StateObject Wrapper]]
 - [[SwiftUI Environment Wrapper]]
 - [[SwiftUI MainActor Wrapper]]
+- [[SwiftUI ViewBuilder]]

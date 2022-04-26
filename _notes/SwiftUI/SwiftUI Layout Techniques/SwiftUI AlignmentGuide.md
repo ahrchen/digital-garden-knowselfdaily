@@ -4,6 +4,8 @@ title: SwiftUI AlignmentGuide
 
 ### Main Idea
 
+The alignmentGuide() modifier lets us write custom code to calculate a view's alignment guide.
+
 Now, when the VStack comes to aligning each of those text views, it asks them to provide their leading edge. By default this is obvious: it uses either the left or right edge of the view, depending on the system language. But what if we wanted to change that – what if we wanted to make one view have a custom alignment?
 
 SwiftUI provides us with the alignmentGuide() modifier for just this purpose. This takes two parameters: the guide we want to change, and a closure that returns a new alignment. The closure is given a ViewDimensions object that contains the width and height of its view, along with the ability to read its various edges.
