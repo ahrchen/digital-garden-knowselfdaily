@@ -1,5 +1,5 @@
 ---
-title: SwiftUI ViewBuilder
+title: SwiftUI ViewBuilder Wrapper
 ---
 
 ### Main Idea

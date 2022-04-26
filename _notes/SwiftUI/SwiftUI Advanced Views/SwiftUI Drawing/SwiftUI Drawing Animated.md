@@ -1,5 +1,5 @@
 ---
-title: SwiftUI Drawing Animated 
+title: SwiftUI Drawing animatableData 
 ---
 
 ### Main Idea

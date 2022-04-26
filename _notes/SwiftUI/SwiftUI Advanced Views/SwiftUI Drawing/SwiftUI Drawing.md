@@ -12,4 +12,4 @@ title: SwiftUI Drawing
 - [[SwiftUI CGAffineTransform]]
 - [[SwiftUI Metal]]
 - [[SwiftUI Drawing Special Effect]]
-- [[SwiftUI Drawing Animated]]
+- [[SwiftUI Drawing animatableData]]
