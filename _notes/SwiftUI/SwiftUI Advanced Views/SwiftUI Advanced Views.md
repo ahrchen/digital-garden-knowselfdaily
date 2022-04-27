@@ -8,4 +8,3 @@ title: SwiftUI Advanced Views
 - [[SwiftUI Image]]
 - [[SwiftUI Drawing]]
 - [[SwiftUI Intergrate UIKit]]
-- [[SwiftUI Menu Options]]

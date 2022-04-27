@@ -16,3 +16,4 @@ Most of this is sourced from https://www.hackingwithswift.com/100/swiftui
 - [[SwiftUI Accessibility]]
 - [[SwiftUI Gestures]]
 - [[SwiftUI Scenes]]
+- [[SwiftUI Popup Windows]]

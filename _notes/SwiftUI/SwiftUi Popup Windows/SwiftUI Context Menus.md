@@ -1,5 +1,5 @@
 ---
-title: SwiftUI Context Menus
+title: SwiftUI Context Menu
 ---
 
 ### Main Idea
@@ -15,6 +15,8 @@ I have a few tips for you when working with context menus, to help ensure you gi
 3. Don’t repeat options the user can already see elsewhere in your UI.
 
 Remember, context menus are by their nature hidden, so please think twice before hiding important actions in a context menu.
+
+<img src="/assets/ContextMenuImage.png"/>
 
 Referenced from https://www.hackingwithswift.com/books/ios-swiftui/creating-context-menus
 ```swift

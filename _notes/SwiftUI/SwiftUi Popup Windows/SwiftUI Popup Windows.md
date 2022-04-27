@@ -1,5 +1,5 @@
 ---
-title: SwiftUI Basic Views
+title: SwiftUI Popup Windows
 ---
 
 ### Welcome!
@@ -8,6 +8,4 @@ title: SwiftUI Basic Views
 
 - [[SwiftUI Alerts]]
 - [[SwiftUI Confirmation Dialog]]
-- [[SwiftUI Views and Modifiers]]
-- [[SwiftUI ScrollView]]
-
+- [[SwiftUI Context Menu]]
