@@ -9,3 +9,4 @@ title: SwiftUI Popup Windows
 - [[SwiftUI Alerts]]
 - [[SwiftUI Confirmation Dialog]]
 - [[SwiftUI Context Menu]]
+- [[SwiftUI Sheets]]
