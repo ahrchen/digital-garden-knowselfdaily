@@ -10,6 +10,7 @@ Most of this is sourced from https://www.hackingwithswift.com/100/swiftui
 - [[Swift Framework ML]]
 - [[Swift Framework CoreData]]
 - [[Swift Framework CoreImage]]
+- [[Swift Framework UNUserNotificationCenter]]
 - [[Swift Framework MapKit]]
 - [[Swift Framework LocalAuthentication]]
 - [[Swift Framework UserNotifications]]
