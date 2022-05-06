@@ -13,6 +13,7 @@ permalink: /
 - [[SwiftUI]]
 - [[Swift Frameworks]]
 - [[100_Days_of_SwiftUI]]
+- [[Affirmation Timer]]
 
 # Interviewing
 - [[Algorithms]]
