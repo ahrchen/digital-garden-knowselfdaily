@@ -4,6 +4,10 @@ title: Algorithms
 
 ### Welcome!
 
+### Neetcode 150
+- [Second Run](https://youtube.com/playlist?list=PLMbUi6HtzLDzaCjms3yilPNGbY8_TpxVV)
+- [First Run](https://youtube.com/playlist?list=PLMbUi6HtzLDwsjpcAy91RH5aUAhf1lbas)
+
 ### Easy Algorithms
 
 - [Split List Part 2](https://www.youtube.com/watch?v=0XT2pMAjG94)
@@ -86,6 +90,3 @@ title: Algorithms
 - [Integer to Roman Numeral](https://www.youtube.com/watch?v=-WomV86CQbM)
 - [Number of Islands](https://www.youtube.com/watch?v=q3CtPeFsKGc)
 - [Look and Say](https://www.youtube.com/watch?v=oQXNmwSJPUQ&t=4s)
-
-### Neetcode 150
-- [Playlist](https://youtube.com/playlist?list=PLMbUi6HtzLDwsjpcAy91RH5aUAhf1lbas)
