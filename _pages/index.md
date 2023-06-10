@@ -5,11 +5,11 @@ id: home
 permalink: /
 ---
 
-#  Raymond's World 🌱
+#  Raymond's Notes 🌱
 
 ## WWDC 
-- [[Why attend WWDC?]]
-- [[Why view "New to WWDC?" Sessions]]
+- [[Why attend WWDC]]
+- [[New to WWDC]]
 
 ## iOS Applications
 - [[Affirmation Timer]]
