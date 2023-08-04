@@ -7,6 +7,9 @@ permalink: /
 
 #  Raymond's Notes 🌱
 
+## VisionOS
+- [[Getting Started VisionOS]]
+
 ## WWDC 
 - [[Why attend WWDC]]
 - [[New to WWDC]]
