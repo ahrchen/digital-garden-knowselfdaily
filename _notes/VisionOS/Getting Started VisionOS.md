@@ -6,7 +6,7 @@ title: Getting Started VisionOS
 
 This is currently a work in progress.
 
-1. A great first step is this video from Apple [Get started with building apps for spatial computing]
+1. A great first step is this video from Apple [[Get started with building apps for spatial computing]]
 
 #### More steps to come.
 
