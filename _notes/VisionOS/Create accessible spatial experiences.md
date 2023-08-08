@@ -4,10 +4,7 @@ title: Create accessible spatial experiences
 
 ### [Create accessible spatial experiences](https://developer.apple.com/videos/play/wwdc2023/10034/)
 
-This video goes over basic accessibility features
-
-This video goes over the creation of the [Hello World Application](https://developer.apple.com/documentation/visionos/world), focusing on RealityKit in conjunction with SwiftUI. We will learn about how RealityKit works with SwiftUI.
-
+This video goes over basic accessibility features, vision, motor, cognitive, and hearing. Designing your application with accessibilitiy in mind helps you design a more accessible application for everybody. 
 
 #### Vision
 - Support users who are visually impaired
