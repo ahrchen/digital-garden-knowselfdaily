@@ -2,7 +2,7 @@
 title: Fundamental Design VisionOS
 ---
 
-### Fundamental Design VisionOS
+### [Fundamental Design VisionOS](https://developer.apple.com/videos/play/wwdc2023/10072/)
 
 This video goes over the fundamentals of designing for VisionOS
 - Why Apple Music App, Photo App, and Freeform App looks the way it does?
@@ -13,7 +13,7 @@ This video goes over the fundamentals of designing for VisionOS
             - One key moment that makes the experience special 
         - Point
             - Everything scales with points
-    - Human Centered
+    - Human-Centered
         - Field of View 
             - Center it to the person
         - Ergonomics 
@@ -21,7 +21,7 @@ This video goes over the fundamentals of designing for VisionOS
         - Movement
             - Anchored in things in space
             - Requires minimal movement
-    - Dimension
+    - Dimensional
         - Space
             - Design for all sized spaces ( Don't quite know what this means)
         - Heirarchy

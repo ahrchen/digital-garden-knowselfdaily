@@ -2,13 +2,22 @@
 title: Getting Started VisionOS
 ---
 
-### Getting Started VisionOS
+### Getting Started VisionOS (This is currently a work in progress)
 
-This is currently a work in progress.
+Apple recommends that we start with the four following videos 
+[Get started with building apps for spatial computing](https://developer.apple.com/videos/play/wwdc2023/10260/)
+[Principles of spatial design](https://developer.apple.com/videos/play/wwdc2023/10072/)
+[Create accessible spatial experiences](https://developer.apple.com/videos/play/wwdc2023/10034/)
+[Develop your first immersive app](https://developer.apple.com/videos/play/wwdc2023/10203/)
 
-1. A great first step is this video from Apple [[Get started with building apps for spatial computing]]
+The four following videos should help you make sense of the fundamentals that make up a spatial computing, windows, volumes, and spaces. Design with depth, scale, and immersion, Explore tools like Xcode and Reality Composer Pro, and how to make accessible spatial experience. 
+
+The verdict this is a quick breathe overview about the fundamentals of spatial computing. Everything in these videos should be helpful to all beginnings. Read more to get a sense about the video you are about to watch. 
+1. [[Get started with building apps for spatial computing]]
+2. [[Fundamental Design VisionOS]]
+
 
 #### More steps to come.
 
 #### Don't really understand how these videos fit into the learning process of building VisionOS applications, I will add to steps once I understand.
-- [[Fundamental Design VisionOS]]
+- [[Building Spatial Experiences with RealityKit]]
