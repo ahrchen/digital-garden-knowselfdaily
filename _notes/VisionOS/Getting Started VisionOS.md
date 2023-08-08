@@ -18,6 +18,7 @@ Read more to get a sense about the video you are about to watch.
 1. [[Get started with building apps for spatial computing]]
 2. [[Fundamental Design VisionOS]]
 3. [[Create accessible spatial experiences]]
+4. [[Develop your first immersive app]]
 
 #### Organizing lessons.
 - [[Building Spatial Experiences with RealityKit]]
