@@ -17,7 +17,7 @@ The verdict, this is a quick breathe overview about the fundamentals of spatial 
 Read more to get a sense about the video you are about to watch. 
 1. [[Get started with building apps for spatial computing]]
 2. [[Fundamental Design VisionOS]]
-
+3. [[Create accessible spatial experiences]]
 
 #### Organizing lessons.
 - [[Building Spatial Experiences with RealityKit]]
