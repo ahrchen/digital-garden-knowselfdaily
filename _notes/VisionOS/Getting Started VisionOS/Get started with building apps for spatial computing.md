@@ -34,10 +34,10 @@ This video goes over the fundamentals of Spatial Computing, Where to Start, and 
         - Simulator (Test your app)
         - Debugger (Visualizations to help identify Collsion shapes, surfaces, etc)
     - Instruments (Actionable insight into your running application and optimize your application)
-            - See [Meet RealityKit Trace](https://developer.apple.com/videos/play/wwdc2023/10099)
+        - See [Meet RealityKit Trace](https://developer.apple.com/videos/play/wwdc2023/10099)
     - Reality Composer Pro - preview and prepare 3D content for your application
-            - To update material for objects [Explore materials in Reality Composer Pro](https://developer.apple.com/videos/play/wwdc2023/10202/)
-            - To learn more see [Meet Reality Composer Pro](https://developer.apple.com/videos/play/wwdc2023/10083)
+        - To update material for objects [Explore materials in Reality Composer Pro](https://developer.apple.com/videos/play/wwdc2023/10202/)
+        - To learn more see [Meet Reality Composer Pro](https://developer.apple.com/videos/play/wwdc2023/10083)
     - Alternatively Use Unity
         - [Bring your Unity VR app to a fully immersive space](https://developer.apple.com/videos/play/wwdc2023/10093/)
         - [Create immersive Unity apps](https://developer.apple.com/videos/play/wwdc2023/10088/)
