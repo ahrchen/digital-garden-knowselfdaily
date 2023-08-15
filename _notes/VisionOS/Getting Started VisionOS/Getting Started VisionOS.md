@@ -28,3 +28,4 @@ Read more to get a sense about the video you are about to watch.
 - [[Building Spatial Experiences with RealityKit]]
 - [[Elevate your windowed app for spatial computing]]
 - [[Take SwiftUI to the next dimension]]
+- [[Go beyond the window with SwiftUI]]
