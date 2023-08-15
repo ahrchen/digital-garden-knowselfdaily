@@ -27,3 +27,4 @@ Read more to get a sense about the video you are about to watch.
 #### Organizing lessons.
 - [[Building Spatial Experiences with RealityKit]]
 - [[Elevate your windowed app for spatial computing]]
+- [[Take SwiftUI to the next dimension]]
