@@ -21,6 +21,7 @@ This video provides a quick overview the SwiftUI Scenes that make up the buildin
     - Pointer: trackpad, hand gesture or hardware keyboard.
     - Accessibility: e.g. VoiceOver, Switch Control.- See [Create accessible spatial experiences](https://developer.apple.com/videos/play/wwdc2023/10034)
     - Gestures have been updated
+    
 - Hover effects
     - Critical to making your app responsive.
     - Run outside of your app's process.
@@ -50,6 +51,7 @@ This video provides a quick overview the SwiftUI Scenes that make up the buildin
     - Add an ImmersiveSpace scene.
     - Provide an id to the space so you can programmatically open it from your main window.
     - To open the space, use the new openImmersiveSpace environment action.
+    
 - Immersion styles
     - Mixed, Progressive and Full immersion are supported.
     - With Progressive immersion, you can use the digital dial to dial in how much immersion feels right to you.

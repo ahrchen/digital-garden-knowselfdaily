@@ -20,12 +20,4 @@ Read more to get a sense about the video you are about to watch.
 3. [[Create accessible spatial experiences]]
 4. [[Develop your first immersive app]]
 
-#### Optional Videos
-
-- For More Overview See [[Meet SwiftUI for spatial computing]]
-
-#### Organizing lessons.
-- [[Building Spatial Experiences with RealityKit]]
-- [[Elevate your windowed app for spatial computing]]
-- [[Take SwiftUI to the next dimension]]
-- [[Go beyond the window with SwiftUI]]
+For the next step see [[Step Two VisionOS]]
