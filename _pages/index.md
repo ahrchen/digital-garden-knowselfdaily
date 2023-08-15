@@ -9,6 +9,7 @@ permalink: /
 
 ## VisionOS
 - [[Getting Started VisionOS]]
+- [[Step Two VisionOS]]
 
 ## WWDC 
 - [[Why attend WWDC]]
