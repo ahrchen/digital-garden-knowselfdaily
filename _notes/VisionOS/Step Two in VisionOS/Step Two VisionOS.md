@@ -21,7 +21,4 @@ Read more to get a sense about the video you are about to watch.
 3. [[Take SwiftUI to the next dimension]]
 4. [[Go beyond the window with SwiftUI]]
 
-#### Organizing lessons.
-- [[Building Spatial Experiences with RealityKit]]
-- [[Enhance your spatial computing app with RealityKit]]
-- [[Meet ARKit for spatial computing]]
+For the next step see [[Step Three VisionOS]]
