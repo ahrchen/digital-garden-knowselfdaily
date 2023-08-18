@@ -152,7 +152,6 @@ This video provides several key tips on great spatial user interfaces. Learn how
 
 - Outside windows
     - Spatial Captures, can be expanded
-![](https://www.wwdcnotes.com/images/notes/wwdc23/10076/OutsideViews.jpeg)
-
-![](https://hackmd.io/_uploads/H1qZ3Bnn3.png)
+        - ![](https://www.wwdcnotes.com/images/notes/wwdc23/10076/OutsideViews.jpeg)
+        - ![](https://hackmd.io/_uploads/H1qZ3Bnn3.png)
 
