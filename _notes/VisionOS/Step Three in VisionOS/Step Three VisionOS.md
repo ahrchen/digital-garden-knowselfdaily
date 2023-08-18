@@ -21,4 +21,4 @@ Read more to get a sense about the video you are about to watch.
 
 #### Organizing Step Four VisionOS
 - [[Design for spatial input]]
-
+- [[Design for spatial user interfaces]]
