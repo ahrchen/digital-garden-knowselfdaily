@@ -23,3 +23,4 @@ Read more to get a sense about the video you are about to watch.
 - [[Design for spatial input]]
 - [[Design for spatial user interfaces]]
 - [[Explore immersive sound design]]
+- [[Design considerations for vision and motion]]
