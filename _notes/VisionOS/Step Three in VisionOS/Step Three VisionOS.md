@@ -19,8 +19,4 @@ Read more to get a sense about the video you are about to watch.
 3. [[Meet ARKit for spatial computing]]
 4. [[Evolve your ARKit app for spatial experiences]]
 
-#### Organizing Step Four VisionOS
-- [[Design for spatial input]]
-- [[Design for spatial user interfaces]]
-- [[Explore immersive sound design]]
-- [[Design considerations for vision and motion]]
+For the next step see [[Step Four VisionOS]]
