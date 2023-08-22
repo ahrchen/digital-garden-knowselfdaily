@@ -61,6 +61,7 @@ RealityView { content in
         - Re-mapping values above 1 int ovisible range
         
     - Disable Tone Mapping to match SwiftUI color
+    
 ```swift
 RealityView { content in
     if let trafficLight = try? await Entity(named: "traffic_light") {
@@ -85,9 +86,10 @@ RealityView { content in
     - For more see [Rendering at Different Rasterization Rates](https://developer.apple.com/documentation/metal/render_passes/rendering_at_different_rasterization_rates)
 
 
-
 #### Dynamic content scaling
-<img src="/assets/RasterizationRateMaps.jpg"/>
+
+<img src="/assets/RasterizationRateMaps.png"/>
+
 - To draw content at the right scale. 
     - Text label are scaled to different size
         - largest in the center
@@ -95,6 +97,7 @@ RealityView { content in
         - smallest outside center
 - UIKit, SwiftUI auto enabled
 - CoreAnimation Available
+
 ```swift
 // Enable dynamic content scaling on CALayer with:
 
