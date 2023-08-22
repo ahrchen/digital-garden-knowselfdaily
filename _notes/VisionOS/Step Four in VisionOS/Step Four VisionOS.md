@@ -23,3 +23,4 @@ Read more to get a sense about the video you are about to watch.
 #### Organizing Videos for Step Five
 - [[What’s new in Xcode 15]]
 - [[Meet RealityKit Trace]]
+- [[Explore rendering for spatial computing]]
