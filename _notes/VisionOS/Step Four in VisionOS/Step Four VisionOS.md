@@ -24,3 +24,4 @@ Read more to get a sense about the video you are about to watch.
 - [[What’s new in Xcode 15]]
 - [[Meet RealityKit Trace]]
 - [[Explore rendering for spatial computing]]
+- [[Optimize app power and performance for spatial computing]]
