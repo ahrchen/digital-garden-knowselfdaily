@@ -12,6 +12,7 @@ permalink: /
 - [[Step Two VisionOS]]
 - [[Step Three VisionOS]]
 - [[Step Four VisionOS]]
+- [[Step Five VisionOS]]
 
 ## WWDC 
 - [[Why attend WWDC]]
