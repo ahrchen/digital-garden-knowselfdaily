@@ -23,3 +23,4 @@ Read more to get a sense about the video you are about to watch.
 
 #### Organizing Videos for Step Six
 - [[Meet Reality Composer Pro]]
+- [[Explore materials in Reality Composer Pro]]
