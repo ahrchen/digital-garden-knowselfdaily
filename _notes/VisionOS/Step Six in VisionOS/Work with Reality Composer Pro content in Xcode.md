@@ -160,19 +160,19 @@ entity.components.set(component)
     -   We'll add each one as a child of the marker entities we set up in Reality Composer Pro. 
 -   Let's understand these six steps through a more detailed diagram, and then we'll look at the code.
     - First, we add invisible entities in our Reality Composer Pro scene. We position our invisible entities where we want our buttons to show up, on the x-, y-, and z-axes. We're making use of the Transform Component here, which all entities have by default. 
-    - <img src="/assets/Step_Six_VisionOS/AddInvisibleEntities.png"/>
+    - <img src="/assets/Step_Six_VisionOS_Assets/AddInvisibleEntities.png"/>
     - Then we add our PointOfInterestComponent to each of them. In our code, we get references to these entities by querying for all entities in the scene that have the PointOfInterestComponent on them. The query returns the three invisible entities we set up in Reality Composer Pro. 
-    - <img src="/assets/Step_Six_VisionOS/QueryForEntities.png"/>
+    - <img src="/assets/Step_Six_VisionOS_Assets/QueryForEntities.png"/>
     - We create a new SwiftUI view for each one and store them in a collection. 
-    - <img src="/assets/Step_Six_VisionOS/CreateSwiftUIViewForEach.png"/>
+    - <img src="/assets/Step_Six_VisionOS_Assets/CreateSwiftUIViewForEach.png"/>
     - To get our buttons into our RealityView, we'll make use of the SwiftUI view-updating flow. This means adding the property wrapper @State to the collection of buttons in our View. The @State property wrapper tells SwiftUI that when we add items to this collection, SwiftUI should trigger a view update on our ImmersiveView. That will cause SwiftUI to evaluate our attachments ViewBuilder and our update closure again. 
-    - <img src="/assets/Step_Six_VisionOS/StoreViewIn@State.png"/> 
+    - <img src="/assets/Step_Six_VisionOS_Assets/StoreViewIn@State.png"/> 
     - The RealityView's attachments ViewBuilder is where we'll declare to SwiftUI that we want these buttons to be made into entities. 
-    - <img src="/assets/Step_Six_VisionOS/ServeInAttachmentsViewBuilder.png"/> 
+    - <img src="/assets/Step_Six_VisionOS_Assets/ServeInAttachmentsViewBuilder.png"/> 
     - Our RealityView's update closure will be called next, and our buttons will be delivered to us as entities. They're no longer SwiftUI Views now. That's why we can add them to our entity hierarchy. 
-    - <img src="/assets/Step_Six_VisionOS/AddAsEntities.png"/> 
+    - <img src="/assets/Step_Six_VisionOS_Assets/AddAsEntities.png"/> 
     - In the update closure, we add our attachment entities to the scene, positioned floating above each of our invisible entities. Now they will show up visually when we look at our diorama scene. 
-    - <img src="/assets/Step_Six_VisionOS/AddAsEntities2.png"/> 
+    - <img src="/assets/Step_Six_VisionOS_Assets/AddAsEntities2.png"/> 
 - Let's see how each of these steps is done.
     - First, we mark our invisible entities in our Reality Composer Pro scene.
     - Second, to find our entities that we marked, we'll make an EntityQuery. We'll use it to ask for all entities that have a PointOfInterestComponent on them. 
@@ -241,7 +241,7 @@ entity.components.set(component)
                     ```
                 -   Reality Composer Pro automatically builds the component UI for you based on what it reads in your Swift package. It inspects the Swift code in your package and makes any codable components it finds available for you to use in your scenes. 
                 -   Here we're showing four components. Components A and B are in our Xcode project, but they are not inside the Reality Composer Pro package, so they won't be available for you to attach to your entities in Reality Composer Pro. Component C is inside the package but it is not codable, so Reality Composer Pro will ignore it. Of the four components shown here, only Component D will be shown in the list in Reality Composer Pro because it is within the Swift package and it is a codable component. 
-                - <img src="/assets/Step_Six_VisionOS/CustomComponentsInRCP.png"/> 
+                - <img src="/assets/Step_Six_VisionOS_Assets/CustomComponentsInRCP.png"/> 
                 -   That one is our design-time component, while all the others may be used as runtime components. 
                 -   Design-time components are for housing simpler data, such as ints, strings, and SIMD values, things that 3D artists and designers will make use of. 
                 -   You'll see an error in your Xcode project if you add a property to your custom component that's of a type that Reality Composer Pro won't serialize. 
