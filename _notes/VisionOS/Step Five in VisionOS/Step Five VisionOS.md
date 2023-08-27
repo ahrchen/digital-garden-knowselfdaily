@@ -25,3 +25,4 @@ Read more to get a sense about the video you are about to watch.
 - [[Meet Reality Composer Pro]]
 - [[Explore materials in Reality Composer Pro]]
 - [[Work with Reality Composer Pro content in Xcode]]
+- [[Explore the USD ecosystem]]
