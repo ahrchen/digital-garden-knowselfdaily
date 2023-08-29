@@ -1,6 +1,5 @@
  ---
 title: Explore the USD ecosystem
-
 ---
 
 ### [Explore the USD ecosystem](https://developer.apple.com/videos/play/wwdc2023/10086/)
