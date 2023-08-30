@@ -4,381 +4,365 @@ title: Build great games for spatial computing
 
 ### [Build great games for spatial computing](https://developer.apple.com/videos/play/wwdc2023/10096/)
 
-The next step Apple suggest is to learn about the Unity, lets check out when and where we should Unity. Here we learn about about Games and Unity.
+The next step Apple suggest is to learn about the game development. 
 
 "Find out how you can develop great gaming experiences for visionOS. We'll share some of the key building blocks that help you create games for this platform, explore how your experiences can fluidly move between levels of immersion, and provide a roadmap for exploring ARKit, RealityKit, Reality Composer Pro, Unity, Metal, and Compositor."
 -Apple
 
-0:00 - Intro
-0:41 - Types of spatial games
-3:51 - Rendering, audio, and input
-12:10 - Development frameworks
-13:49 - Build with RealityKit
-18:05 - Wrap-Up
+#### Types of spatial games
+#### Rendering, audio, and input
+#### Development frameworks
+#### Build with RealityKit
 
-♪ Mellow instrumental hip-hop ♪ ♪ Hi! I am Tricia Gray, and I work on the RealityKit Tools team.
 
-Welcome to "Build great games for spatial computing." I am really excited to talk to you today about making games for this new device.
+#### Overview
+- This is a standalone spatial computing device.
 
-Spatial computing makes all sorts of new game types possible.
+- It has high-resolution screens, a wide field of view, and a great refresh rate.
 
-It has unique rendering, audio, and input characteristics.
+- The Spatial Audio is amazing.
 
-You have several choices when it comes to which frameworks and tools you can use to build games on it, and that includes RealityKit.
+- And there's LiDAR that tracks both hand movements and the shape of the room around the player.
 
-But first, I'll give you an idea of what types of games are possible on this new platform.
+- And players can stay connected to their surroundings using the device's high-quality passthrough.
 
-This is a standalone spatial computing device.
+    - This has exciting possibilities and lets you create a wide variety of different game types.
 
-It has high-resolution screens, a wide field of view, and a great refresh rate.
+    - You can build games that span a spectrum of immersion, all depending on how much of the player's attention you want to capture.
 
-The Spatial Audio is amazing.
+#### Types of spatial games
 
-And there's LiDAR that tracks both hand movements and the shape of the room around the player.
+- All apps and games start in the Shared Space.
 
-And players can stay connected to their surroundings using the device's high-quality passthrough.
+    - This means that your game can live in space together with other games and apps and the player's surroundings.
 
-This has exciting possibilities and lets you create a wide variety of different game types.
+    - There might be a virtual chessboard on the player's actual desktop representing an active game of chess, or a virtual pet sitting on the floor.
 
-You can build games that span a spectrum of immersion, all depending on how much of the player's attention you want to capture.
+    - All of these apps live together, and the player can interact with whichever one they want.
 
-All apps and games start in the Shared Space.
+- You can put all attention on your game when you move into Full Space.
 
-This means that your game can live in space together with other games and apps and the player's surroundings.
+    - This closes all other windows and volumes, focusing the experience on your content, while still keeping the player connected to their surroundings through passthrough.
 
-There might be a virtual chessboard on the player's actual desktop representing an active game of chess, or a virtual pet sitting on the floor.
+    - This might be suitable for an action game -- something you're actively playing but that still interacts with the real world.
 
-All of these apps live together, and the player can interact with whichever one they want.
+    - You can have spaceships coming through a hole in the wall, for example.
 
-You can put all attention on your game when you move into Full Space.
+- A fully immersive experience is when the game takes over the whole view.
 
-This closes all other windows and volumes, focusing the experience on your content, while still keeping the player connected to their surroundings through passthrough.
+    - Instead of your room, there's an environment and you can no longer see the real world.
 
-This might be suitable for an action game -- something you're actively playing but that still interacts with the real world.
+- Of course, you can also make traditional 2D games.
 
-You can have spaceships coming through a hole in the wall, for example.
+    - They run in a virtual window, and the player can make that window as big or as small as they want.
 
-A fully immersive experience is when the game takes over the whole view.
+    - It doesn't even have to be a vertical window, it could be a flat surface laying on the ground.
 
-Instead of your room, there's an environment and you can no longer see the real world.
+    - They could hang it on the wall or put it on a desk, or have it as the largest screen they've ever had right in front of their face.
 
-Of course, you can also make traditional 2D games.
+    - Players can interact with your game just as they would on iOS, but instead of touching the screen, they'll look at an object and tap their fingers together to select it.
 
-They run in a virtual window, and the player can make that window as big or as small as they want.
+    - You can also connect a Bluetooth controller or a keyboard, just as you can on iOS, and the passthrough is helpful here because you can look down and see the controller you are using.
 
-It doesn't even have to be a vertical window, it could be a flat surface laying on the ground.
+    - You can also spice up a 2D game by adding some 3D elements to it.
 
-They could hang it on the wall or put it on a desk, or have it as the largest screen they've ever had right in front of their face.
+        - For example, your window has real depth, so you can render your objects in separate layers and get a real parallax effect.
 
-Players can interact with your game just as they would on iOS, but instead of touching the screen, they'll look at an object and tap their fingers together to select it.
+        - You can also have elements that come out of the plane, such as smoke or sparks.
 
-You can also connect a Bluetooth controller or a keyboard, just as you can on iOS, and the passthrough is helpful here because you can look down and see the controller you are using.
+        - Or you can add support for custom hand gestures.
 
-You can also spice up a 2D game by adding some 3D elements to it.
+        - With all these options, you have a lot to think about.
 
-For example, your window has real depth, so you can render your objects in separate layers and get a real parallax effect.
+- As you design your game, think about how you can take advantage of these new opportunities for gameplay experiences, from having a giant high-resolution screen to having something personal that you can play in your own room.
 
-You can also have elements that come out of the plane, such as smoke or sparks.
+    - Your game can appear on the player's desk.
 
-Or you can add support for custom hand gestures.
+    - They can place it on the wall.
 
-With all these options, you have a lot to think about.
+    - Something can fly out and land in the player's hands.
 
-As you design your game, think about how you can take advantage of these new opportunities for gameplay experiences, from having a giant high-resolution screen to having something personal that you can play in your own room.
+    - You can make use of the real world around them or transport them into an entirely different place.
 
-Your game can appear on the player's desk.
 
-They can place it on the wall.
+#### Rendering, audio, and input
+##### Rendering, audio, and input work differently on this device than you might be used to on other platforms.
 
-Something can fly out and land in the player's hands.
+- When you're running in a Shared Space, the content from your game is drawn together with content from other apps, system UI, and passthrough.
 
-You can make use of the real world around them or transport them into an entirely different place.
+    - Since the rendering is shared, the frameworks ensure that all apps are good citizens and their rendering doesn't interfere with other apps.
 
-Rendering, audio, and input work differently on this device than you might be used to on other platforms.
+    - In this mode, you can use surface shaders and geometry shaders through MaterialX.
 
-When you're running in a Shared Space, the content from your game is drawn together with content from other apps, system UI, and passthrough.
+- Rendering on xrOS works a little differently than you are used to.
 
-Since the rendering is shared, the frameworks ensure that all apps are good citizens and their rendering doesn't interfere with other apps.
+    - Instead of rendering every pixel, you describe what should be rendered -- all the models, textures, and shaders -- and then the device renders it automatically for each eye.
 
-In this mode, you can use surface shaders and geometry shaders through MaterialX.
+    - Another benefit of the platform rendering for your game is that it can apply dynamic foveation to increase the resolution.
 
-Rendering on xrOS works a little differently than you are used to.
+        - Dynamic foveation is a technique where the renderer uses higher resolution at the part of the display where the player's eyes are looking.
 
-Instead of rendering every pixel, you describe what should be rendered -- all the models, textures, and shaders -- and then the device renders it automatically for each eye.
+        - This means you get crisper resolution in those spots without paying the cost of rendering the whole scene, all without having to do any of the hard work.
 
-Another benefit of the platform rendering for your game is that it can apply dynamic foveation to increase the resolution.
+    - By default, RealityKit renders your objects in such a way that they blend in realistically with the real-world objects around them.
 
-Dynamic foveation is a technique where the renderer uses higher resolution at the part of the display where the player's eyes are looking.
+        - RealityKit will sample the actual lighting in the player's room and apply that same lighting to the objects you render.
 
-This means you get crisper resolution in those spots without paying the cost of rendering the whole scene, all without having to do any of the hard work.
+            - For materials, RealityKit uses a physically based lighting model with typical parameters such as roughness, specular, and metallic.
 
-By default, RealityKit renders your objects in such a way that they blend in realistically with the real-world objects around them.
+            - This, together with the sampled lighting, gives you a realistic look.
 
-RealityKit will sample the actual lighting in the player's room and apply that same lighting to the objects you render.
+    - But you can choose where you want to be on the scale from realistic to fantastical.
 
-For materials, RealityKit uses a physically based lighting model with typical parameters such as roughness, specular, and metallic.
+        - Instead of using the built-in PBR shader, you can create customized shader content using MaterialX and edit the shader graph in Reality Composer Pro or other graphic packages.
 
-This, together with the sampled lighting, gives you a realistic look.
+        - You can also assign custom IBLs to your object for custom lighting effects.
 
-But you can choose where you want to be on the scale from realistic to fantastical.
+    - Another consideration is that there are some systemwide effects that get applied to rendered content.
 
-Instead of using the built-in PBR shader, you can create customized shader content using MaterialX and edit the shader graph in Reality Composer Pro or other graphic packages.
+        - The purpose of this is to make your game work better with other apps and protect the player.
 
-You can also assign custom IBLs to your object for custom lighting effects.
+        - Depth mitigation makes your content slightly transparent when it's hidden behind objects in a player's surroundings.
 
-Another consideration is that there are some systemwide effects that get applied to rendered content.
+            - This gets rid of the feeling that objects are floating in the room.
 
-The purpose of this is to make your game work better with other apps and protect the player.
+        - Near-field vignetting fades your content when the player gets too close to it.
 
-Depth mitigation makes your content slightly transparent when it's hidden behind objects in a player's surroundings.
+            - This prevents issues with your content clipping against the near plane.
 
-This gets rid of the feeling that objects are floating in the room.
+        - Breakthrough allows someone who is approaching you to break through the rendered view, so they don't run into you without you noticing.
 
-Near-field vignetting fades your content when the player gets too close to it.
+        - Finally, grounding shadows are added to rendered objects when they are placed near real-world objects to make them feel more integrated into the scene.
 
-This prevents issues with your content clipping against the near plane.
+    - Fully immersive rendering works similar to shared rendering, but in this case, instead of sharing the screen with passthrough and other apps, your app is the only thing visible.
 
-Breakthrough allows someone who is approaching you to break through the rendered view, so they don't run into you without you noticing.
+        - In this mode, you render an environment that replaces the real-world view around the player.
 
-Finally, grounding shadows are added to rendered objects when they are placed near real-world objects to make them feel more integrated into the scene.
+        - Rendering in this mode works similar to rendering in the shared mode.
 
-Fully immersive rendering works similar to shared rendering, but in this case, instead of sharing the screen with passthrough and other apps, your app is the only thing visible.
+        - You still describe the scene and the device renders it.
 
-In this mode, you render an environment that replaces the real-world view around the player.
+        - But since you control everything the player sees, you have more freedom.
 
-Rendering in this mode works similar to rendering in the shared mode.
+            - For example, you don't have to use the same lighting environment as the room the player is in.
 
-You still describe the scene and the device renders it.
+            - You can make the world as bright or as dark as you want.
 
-But since you control everything the player sees, you have more freedom.
+        - The strength of the device lies in the shared mode, but the fully immersive experience is there when you want to transport the player to a different place.
 
-For example, you don't have to use the same lighting environment as the room the player is in.
+- If you'd like to write your own engine, the CompositorServices API gives you access to Metal rendering on xrOS.
 
-You can make the world as bright or as dark as you want.
+    - You can combine it with ARKit, which adds world tracking and hand tracking to create a fully immersive experience.
 
-The strength of the device lies in the shared mode, but the fully immersive experience is there when you want to transport the player to a different place.
+    - In this mode, you have full access to the screen and render the scene for each eye.
 
-If you'd like to write your own engine, the CompositorServices API gives you access to Metal rendering on xrOS.
+    - You can use fully custom Metal shaders and post processors.
 
-You can combine it with ARKit, which adds world tracking and hand tracking to create a fully immersive experience.
+    - This enables you to completely replace real-world content with your own virtual content.
 
-In this mode, you have full access to the screen and render the scene for each eye.
+    - Passthrough and other apps are hidden.
 
-You can use fully custom Metal shaders and post processors.
+    - For more information on this, check out [[Discover Metal for immersive apps]] Audio can be immersive too.
 
-This enables you to completely replace real-world content with your own virtual content.
+- xrOS uses Spatial Audio to bring objects to life in the player's space, automatically matching the reverb and the real room acoustics.
 
-Passthrough and other apps are hidden.
+    - If you play audio using standard iOS audio APIs such as AVAudioEngine, the audio will be positioned relative to the app window.
 
-For more information on this, check out "Discover Metal for immersive apps." Audio can be immersive too.
+    - If you want sound to come from different objects in the scene in the player's space, you should play the audio through RealityKit on specific entities in your scene.
 
-xrOS uses Spatial Audio to bring objects to life in the player's space, automatically matching the reverb and the real room acoustics.
+    - You also have the option of doing your own audio using any Apple or external API.
 
-If you play audio using standard iOS audio APIs such as AVAudioEngine, the audio will be positioned relative to the app window.
+    - If you want the audio to be head tracked, you need to use ARKit to get the player's head position.
 
-If you want sound to come from different objects in the scene in the player's space, you should play the audio through RealityKit on specific entities in your scene.
+- In addition to graphics and audio, interaction is another key part of an immersive experience.
 
-You also have the option of doing your own audio using any Apple or external API.
+    - After all, every game needs input, and this platform offers multiple ways to interact with the device.
 
-If you want the audio to be head tracked, you need to use ARKit to get the player's head position.
+    - You can get input events on the objects in your scene through SwiftUI as well as other standard system gestures such as dragging and magnifying.
 
-In addition to graphics and audio, interaction is another key part of an immersive experience.
+        - This is based on the physics collision.
 
-After all, every game needs input, and this platform offers multiple ways to interact with the device.
+        - To make the gestures work on your objects, they need to have both a CollisionComponent, which provides the collision shape, as well as an InputTargetComponent, which marks them as interactable.
 
-You can get input events on the objects in your scene through SwiftUI as well as other standard system gestures such as dragging and magnifying.
+    - Spatial input can feel pretty magical for players, but you have other options for game input too.
 
-This is based on the physics collision.
+        - Even game controllers! While system Look & Tap gestures feel natural, you only have one set of eyes to look with and only two hands that can tap, pinch, or grab.
 
-To make the gestures work on your objects, they need to have both a CollisionComponent, which provides the collision shape, as well as an InputTargetComponent, which marks them as interactable.
+        - Some games need more points of input.
 
-Spatial input can feel pretty magical for players, but you have other options for game input too.
+        - One possibility is to use a standard Bluetooth controller.
 
-Even game controllers! While system Look & Tap gestures feel natural, you only have one set of eyes to look with and only two hands that can tap, pinch, or grab.
+        - xrOS supports trackpads, mice, and keyboards, as well as Bluetooth-based game controllers.
 
-Some games need more points of input.
+        - This can be a good option for traditional games.
 
-One possibility is to use a standard Bluetooth controller.
+    - And xrOS also allows for more unconventional input, such as using your own body as a controller.
 
-xrOS supports trackpads, mice, and keyboards, as well as Bluetooth-based game controllers.
+        - You can use hand tracking to let the player grab virtual objects or implement custom gestures, such as pointing at an object or karate chopping them.
 
-This can be a good option for traditional games.
+        - You access hand tracking through ARKit, and the device will ask the player for permission, same as when an app wants to use your location or microphone.
 
-And xrOS also allows for more unconventional input, such as using your own body as a controller.
+    - There are some things to consider when designing this input.
 
-You can use hand tracking to let the player grab virtual objects or implement custom gestures, such as pointing at an object or karate chopping them.
+        - Hands can only be tracked when they are visible to the camera.
 
-You access hand tracking through ARKit, and the device will ask the player for permission, same as when an app wants to use your location or microphone.
+        - Really fast hand movements can be hard to track.
 
-There are some things to consider when designing this input.
+        - Take that into account.
 
-Hands can only be tracked when they are visible to the camera.
+    - When you are working in a Full Space, you can request scene understanding.
 
-Really fast hand movements can be hard to track.
+        - Scene understanding provides a virtual mesh representing the room around the player.
 
-Take that into account.
+        - It can also do plane detection to find horizontal and vertical surfaces.
 
-When you are working in a Full Space, you can request scene understanding.
+        - You can also get the materials of those surfaces, whether it's carpet or wood.
 
-Scene understanding provides a virtual mesh representing the room around the player.
+        - This lets you use the room itself as part of the input to your game.
 
-It can also do plane detection to find horizontal and vertical surfaces.
+        - Just as with hand tracking, this requires permission from the player.
 
-You can also get the materials of those surfaces, whether it's carpet or wood.
+    - With all the input options, you have to figure out what is right for your game.
 
-This lets you use the room itself as part of the input to your game.
+        - Using the player's body for direct input is a great way of engaging them.
 
-Just as with hand tracking, this requires permission from the player.
+        - But holding your hands up and doing gestures is also something that can get tiring over time.
 
-With all the input options, you have to figure out what is right for your game.
+        - If your game will be played for long stretches of time or require a lot of quick actions, think about how you can make use of indirect gestures and gaze.
 
-Using the player's body for direct input is a great way of engaging them.
+        - That way players can rest their hands comfortably on their lap, and Look & Tap instead of moving their hands.
 
-But holding your hands up and doing gestures is also something that can get tiring over time.
+        - The device is meant to be something you use every day, so comfort is important.
 
-If your game will be played for long stretches of time or require a lot of quick actions, think about how you can make use of indirect gestures and gaze.
+    - And if it makes sense, you can also go to a more traditional game controller.
 
-That way players can rest their hands comfortably on their lap, and Look & Tap instead of moving their hands.
+- This platform supports all the multiplayer and networking capabilities you are familiar with from other platforms.
 
-The device is meant to be something you use every day, so comfort is important.
+    - Web-based networking, low-level socket-based networking, and Multipeer Connectivity are all available to you.
 
-And if it makes sense, you can also go to a more traditional game controller.
+    - SharePlay also makes it easy for the player to socialize in a more intimate way.
 
-This platform supports all the multiplayer and networking capabilities you are familiar with from other platforms.
+    - You can even build games using networking that allows some players to play on iPhones or iPads and still connect to this great device.
 
-Web-based networking, low-level socket-based networking, and Multipeer Connectivity are all available to you.
+        - Imagine a dominos game with your friend that has an iPad, and they have a 2D experience while you have a rich, immersive 3D experience.
+        
+#### Development frameworks
+- Now that you know a little bit more about this as a gaming device, here are the frameworks you can use to create games.
 
-SharePlay also makes it easy for the player to socialize in a more intimate way.
+- Depending on whether you want to make a 2D game, a game that lives in Volume, or a fully immersive game, there are different options available to you, such as using RealityKit, our immersive framework, or writing something directly on top of Metal, or even using Unity.
 
-You can even build games using networking that allows some players to play on iPhones or iPads and still connect to this great device.
+- If you have already made a game for iPhone or iPad, in most cases, your game will automatically run on the device in a virtual window, using Look & Tap to interact. Note that this applies to compatible 3D games too. They will run in a flat window on the device.
 
-Imagine a dominos game with your friend that has an iPad, and they have a 2D experience while you have a rich, immersive 3D experience.
+- If you want your game to be stereoscopic, you must use the spatial computing APIs.
 
-Now that you know a little bit more about this as a gaming device, here are the frameworks you can use to create games.
+- Being able to run compatible games is great, but if you want to take full advantage of the device, build your game to target it.
 
-Depending on whether you want to make a 2D game, a game that lives in Volume, or a fully immersive game, there are different options available to you, such as using RealityKit, our immersive framework, or writing something directly on top of Metal, or even using Unity.
+    - That way you can use gestures for input, or add 2.5D elements such as perspective or volumetric smoke.
 
-If you have already made a game for iPhone or iPad, in most cases, your game will automatically run on the device in a virtual window, using Look & Tap to interact.
+- You can build 2D games for the device using a 2D framework such as SwiftUI or SpriteKit.
 
-Note that this applies to compatible 3D games too.
+- You can use Unity to build games for xrOS.
 
-They will run in a flat window on the device.
+    - This is a great option if you already have a Unity game that you want to port, or if you are a Unity developer.
 
-If you want your game to be stereoscopic, you must use the spatial computing APIs.
+    - If you want to learn more about using Unity, go to the sessions [[Bring your Unity VR app to a fully immersive space]] or [[Create immersive Unity apps]] 
+    - 
+- Finally, there is RealityKit, Apple's real-time rendering framework for building immersive spatial experiences.
 
-Being able to run compatible games is great, but if you want to take full advantage of the device, build your game to target it.
+    - The API has a lot of new features to make it a great way of creating 3D games for xrOS.
 
-That way you can use gestures for input, or add 2.5D elements such as perspective or volumetric smoke.
+    - RealityKit supports all the features you need to make great games.
 
-You can build 2D games for the device using a 2D framework such as SwiftUI or SpriteKit.
+        - There is an entity component system for custom behaviors, and an extensibility along with physics, animation, particles, and audio support.
 
-You can use Unity to build games for xrOS.
+        - On the rendering side, RealityKit supports both USD models as well as custom meshes.
 
-This is a great option if you already have a Unity game that you want to port, or if you are a Unity developer.
+        - For grounding your objects in the world, there are MaterialX and IBL lighting.
 
-If you want to learn more about using Unity, go to the sessions "Bring your Unity VR app to a fully immersive space" or "Create immersive Unity apps." Finally, there is RealityKit, Apple's real-time rendering framework for building immersive spatial experiences.
+        - Attachments, a new feature which allows you to connect rich SwiftUI directly to your RealityKit objects.
 
-The API has a lot of new features to make it a great way of creating 3D games for xrOS.
+- Using SwiftUI, you can mix passthrough and rendered content in various ways using features such as Windows, Volumes, Spaces, Anchors, and Portals.
 
-RealityKit supports all the features you need to make great games.
+    - You can use system gestures for input, or you can use ARKit to access hand tracking and scene understanding.
 
-There is an entity component system for custom behaviors, and an extensibility along with physics, animation, particles, and audio support.
+- To start building your game for xrOS, you create a new Xcode project from the xrOS template.
 
-On the rendering side, RealityKit supports both USD models as well as custom meshes.
+    - This gives you a SwiftUI window with a RealityView inside of it.
 
-For grounding your objects in the world, there are MaterialX and IBL lighting.
+        - The RealityView in the SwiftUI hierarchy holds the 3D rendering and simulation for your game.
 
-Attachments, a new feature which allows you to connect rich SwiftUI directly to your RealityKit objects.
+        - If you're not familiar with SwiftUI yet, it is worth it to learn a little bit about it.
 
-Using SwiftUI, you can mix passthrough and rendered content in various ways using features such as Windows, Volumes, Spaces, Anchors, and Portals.
+        - By default, your 3D content appears in a volumetric box formed by the window.
 
-You can use system gestures for input, or you can use ARKit to access hand tracking and scene understanding.
+            - Your content is confined to that window and will follow along as it moves.
 
-To start building your game for xrOS, you create a new Xcode project from the xrOS template.
+- RealityKit is a Swift API.
 
-This gives you a SwiftUI window with a RealityView inside of it.
+    - Swift can be a great language for building games, but if you want to use another language, you can.
 
-The RealityView in the SwiftUI hierarchy holds the 3D rendering and simulation for your game.
+    - You just create a bridge between that language and the Swift API.
 
-If you're not familiar with SwiftUI yet, it is worth it to learn a little bit about it.
+- Xcode comes with a Simulator.
 
-By default, your 3D content appears in a volumetric box formed by the window.
+    - You can start developing your games right away without having a device.
 
-Your content is confined to that window and will follow along as it moves.
+    - Of course, testing it on a real device is always best.
 
-RealityKit is a Swift API.
+- Your 3D content will by default be displayed in a SwiftUI window.
 
-Swift can be a great language for building games, but if you want to use another language, you can.
+    - One of the first things you will want to do as a game developer is to break out of that window and draw content in the player's surroundings.
 
-You just create a bridge between that language and the Swift API.
+    - You have some different options for doing that.
 
-Xcode comes with a Simulator.
+        - You can use a volume.
 
-You can start developing your games right away without having a device.
+        - Volumes are similar to windows, with one important difference.
 
-Of course, testing it on a real device is always best.
+    - With windows, the player controls the size.
 
-Your 3D content will by default be displayed in a SwiftUI window.
+        - They can drag the corner and make it as big or as small as they like, and your content has to adapt.
 
-One of the first things you will want to do as a game developer is to break out of that window and draw content in the player's surroundings.
+        - If the window is too small for your content, your content will be clipped.
 
-You have some different options for doing that.
+    - With Volumes, it's the other way around.
 
-You can use a volume.
+        - With Volumes, you say, "I want the box to be this big, this high, and this deep." The player can still put that box wherever they want in the world, but the box will always be the same size.
 
-Volumes are similar to windows, with one important difference.
+        - So you can make sure that the box is big enough to fit your entire experience, and you can be sure that the content doesn't clip.
 
-With windows, the player controls the size.
+    - If you don't want to use a box at all, you can use a space.
 
-They can drag the corner and make it as big or as small as they like, and your content has to adapt.
+        - This allows you to render content all around the player in the real world.
 
-If the window is too small for your content, your content will be clipped.
+        - For example, you can surround the player with buzzing bees.
 
-With Volumes, it's the other way around.
+- There are different kinds of spaces corresponding to the different game types.
 
-With Volumes, you say, "I want the box to be this big, this high, and this deep." The player can still put that box wherever they want in the world, but the box will always be the same size.
+    - You can use a Shared Space to run together with other apps, or a Full Space if you want your game to be the only thing running.
 
-So you can make sure that the box is big enough to fit your entire experience, and you can be sure that the content doesn't clip.
+    - Anchors let you anchor your scene to an object in the real world and follow it around as it moves.
 
-If you don't want to use a box at all, you can use a space.
+    - You can use a horizontal or a vertical surface anchor to anchor the entity to a desk or a wall.
 
-This allows you to render content all around the player in the real world.
+    - There are also hand anchors that let you anchor content to the player's hands.
 
-For example, you can surround the player with buzzing bees.
+    - Portals allow you to punch a hole in the player's reality to create your own fantastic reality.
 
-There are different kinds of spaces corresponding to the different game types.
+        - You can anchor a portal to a real wall and have that portal cut a hole in the wall that lets you peek into a rendered world inside the hole.
 
-You can use a Shared Space to run together with other apps, or a Full Space if you want your game to be the only thing running.
+        - You can render whatever you want inside that portal, and the objects inside the portal can emerge into the real world too.
 
-Anchors let you anchor your scene to an object in the real world and follow it around as it moves.
+- RealityKit can load and render USD files.
 
-You can use a horizontal or a vertical surface anchor to anchor the entity to a desk or a wall.
+    - One of the easiest ways to get started with volumetric content is to assemble scenes out of premade objects, but for that, you need some kind of visual tool.
 
-There are also hand anchors that let you anchor content to the player's hands.
+- Reality Composer Pro is a tool that comes bundled with Xcode.
 
-Portals allow you to punch a hole in the player's reality to create your own fantastic reality.
+    - It lets you load USD models and preview how they will look on the device.
 
-You can anchor a portal to a real wall and have that portal cut a hole in the wall that lets you peek into a rendered world inside the hole.
+    - When you build your project with Reality Composer Pro, your assets are automatically optimized for use on the device.
 
-You can render whatever you want inside that portal, and the objects inside the portal can emerge into the real world too.
-
-RealityKit can load and render USD files.
-
-One of the easiest ways to get started with volumetric content is to assemble scenes out of premade objects, but for that, you need some kind of visual tool.
-
-Reality Composer Pro is a tool that comes bundled with Xcode.
-
-It lets you load USD models and preview how they will look on the device.
-
-When you build your project with Reality Composer Pro, your assets are automatically optimized for use on the device.
-
-You can learn more about Reality Composer Pro in these sessions.
-
-I hope this session was a helpful game-development roadmap for spatial computing.
-
-Be sure to take a deeper dive in the multiple framework sessions available.
-
-This is a great platform to socialize and play games with others.
-
-I can't wait to see what you develop for it.
-
+- You can learn more about Reality Composer Pro in these sessions.
+    - [[Explore materials in Reality Composer Pro]]
+    - [[Meet Reality Composer Pro]]
