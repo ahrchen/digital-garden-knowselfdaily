@@ -19,5 +19,4 @@ You have watched these already but feel free to revisit.
 - [[Design considerations for vision and motion]]
 - [[Create immersive Unity apps]]
 - [[Bring your Unity VR app to a fully immersive space]]
-- [[Explore immersive sound design
-]]
+- [[Explore immersive sound design]]
