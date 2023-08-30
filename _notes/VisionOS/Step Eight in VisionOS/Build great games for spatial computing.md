@@ -1,4 +1,4 @@
- ---
+---
 title: Build great games for spatial computing
 ---
 

@@ -1,4 +1,4 @@
- ---
+---
 title: Explore App Store Connect for spatial computing
 ---
 

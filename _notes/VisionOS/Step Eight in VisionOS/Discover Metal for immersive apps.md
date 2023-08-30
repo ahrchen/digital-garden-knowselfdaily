@@ -1,4 +1,4 @@
- ---
+---
 title: Discover Metal for immersive apps
 ---
 

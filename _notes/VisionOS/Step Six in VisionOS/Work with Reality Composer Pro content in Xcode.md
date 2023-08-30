@@ -1,6 +1,5 @@
- ---
+---
 title: Work with Reality Composer Pro content in Xcode
-
 ---
 
 ### [Work with Reality Composer Pro content in Xcode](https://developer.apple.com/videos/play/wwdc2023/10273)
