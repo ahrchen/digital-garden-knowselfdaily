@@ -8,14 +8,7 @@ permalink: /
 #  Raymond's Notes 🌱
 
 ## VisionOS
-- [[Getting Started VisionOS]]
-- [[Step Two VisionOS]]
-- [[Step Three VisionOS]]
-- [[Step Four VisionOS]]
-- [[Step Five VisionOS]]
-- [[Step Six VisionOS]]
-- [[Step Seven VisionOS]]
-- [[Step Eight VisionOS]]
+- [[Ten Steps Overview of VisionOS By Apple]
 
 ## WWDC 
 - [[Why attend WWDC]]
