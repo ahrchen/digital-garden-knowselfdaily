@@ -6,6 +6,10 @@ title: Elevate your windowed app for spatial computing
 
 This video provides several key tips on creating SwiftUI Windows for visionOS. 
 
+"Discover how you can bring your multiplatform SwiftUI app to visionOS and the Shared Space. We'll show you how to add the visionOS destination to an existing app and view your app in the Simulator. Explore how your SwiftUI code automatically adapts to support the unique context and presentation of the visionOS platform. Learn how you can update custom views, improve your app's UI, and add features and controls specific to this platform."
+-Apple
+
+
 #### SwiftUI in the Shared Space
 
 - Most system applications on visionOS are written with SwiftUI
