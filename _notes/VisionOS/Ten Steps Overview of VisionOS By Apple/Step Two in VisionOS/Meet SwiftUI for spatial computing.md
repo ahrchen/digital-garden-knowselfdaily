@@ -6,7 +6,7 @@ title: Meet SwiftUI for spatial computing
 
 This video provides a quick overview the SwiftUI Scenes that make up the building blocks of your app, Windows, Volumes, and Full Spaces. You will learn about the new features that are now available, but for a full tutorial, you will need to dive deeper.
 
-#### Windows - See Tutorial Here [Elevate your windowed app for spatial computing](https://developer.apple.com/videos/play/wwdc2023/10110)
+#### Windows - See Tutorial Here [[Elevate your windowed app for spatial computing]]
 
 - Ornament 
     - Place accessories outside the window's bounds. Used in TabView,  presentations, and more. Make your own using the .ornament modifier.
@@ -29,7 +29,7 @@ This video provides a quick overview the SwiftUI Scenes that make up the buildin
     - If you're using a custom control style, make sure to add hover effects to make them responsive and easy to use.
     - As simple as adding a .hovereffect modifier
 
-#### Volumes - See More [Take SwiftUI to the next dimension](https://developer.apple.com/videos/play/wwdc2023/10113/)
+#### Volumes - See More [[Take SwiftUI to the next dimension]]
 
 - To add a volume, specify .windowStyle(.volumetric) on your WindowGroup.
 
@@ -45,7 +45,7 @@ This video provides a quick overview the SwiftUI Scenes that make up the buildin
     - RealityView attachments allow mixing custom SwiftUI views together, inline with RealityKit entities.
 
 
-#### Full Spaces - See Tutorial Here [Go beyond the window with SwiftUI](https://developer.apple.com/videos/play/wwdc2023/10111)
+#### Full Spaces - See Tutorial Here [[Go beyond the window with SwiftUI]]
 
 - ImmersiveSpace
     - Add an ImmersiveSpace scene.
