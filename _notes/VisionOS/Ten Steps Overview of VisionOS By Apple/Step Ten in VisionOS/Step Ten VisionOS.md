@@ -10,6 +10,6 @@ Read more to get a sense about each video you are about to watch.
 
 - [[Discover Quick Look for spatial computing]]
 - [[Create 3D models for Quick Look spatial experiences]]
-- [[Run your iPad and iPhone apps in the Shared Space]]
+- [[Run your iPad and iPhone apps in visionOS]]
 - [[Enhance your iPad and iPhone apps for the Shared Space]]
 
