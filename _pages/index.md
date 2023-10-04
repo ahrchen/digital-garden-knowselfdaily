@@ -7,31 +7,27 @@ permalink: /
 
 #  Raymond's Notes 🌱
 
-## VisionOS
-- [[Ten Steps Overview of VisionOS By Apple]]
+## Original Work
+### [[SwiftUI Fundamentals]]
 
-## WWDC 
-- [[Why attend WWDC]]
-- [[New to WWDC]]
+## My iOS Applications
+### [[Affirmation Timer]]
 
-## iOS Applications
-- [[Affirmation Timer]]
+## WWDC 2023
+### [[Ten Steps Overview of VisionOS By Apple]]
+### [[Why attend WWDC]]
+### [[New to WWDC]]
 
 ## iOS Classes
-- [[Stanford CS193p]]
-- [[100_Days_of_SwiftUI]]
+### [[Stanford CS193p]]
+### [[100_Days_of_SwiftUI]]
+### [[HackingWithSwift]]
 
-## iOS Tips
-- [[Swift]]
-- [[SwiftUI]]
-- [[Swift Frameworks]]
-
-## Interviewing
-- [[Algorithms]]
+## Interviewing Tips
+### [[Algorithms]]
 
 ## Ideas
-- [[How to Think]]
-
+### [[How to Think]]
 
 #### How to start your own:  
 

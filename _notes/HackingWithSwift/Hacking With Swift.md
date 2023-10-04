@@ -1,5 +1,5 @@
 ---
-title: SwiftUI
+title: Hacking With Swift 
 ---
 
 ### Welcome!
@@ -7,6 +7,8 @@ title: SwiftUI
 Most of this is sourced from https://www.hackingwithswift.com/100/swiftui
 
 ### Topics
+- [[Swift]]
+- [[Swift Frameworks]]
 - [[SwiftUI Basic Views]]
 - [[SwiftUI Advanced Views]]
 - [[SwiftUI Interactions]]
