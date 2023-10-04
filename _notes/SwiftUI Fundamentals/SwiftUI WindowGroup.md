@@ -8,7 +8,12 @@ Window Group is one of six default scene type available to you in 2023. The scen
 
 For example
 - MenuBarExtra, places items in your Mac tool bar.
-<img src="/assets/image.jpg"/>
+<img src="/assets/SwiftUI_WindowGroup/MenuBarExtra.gif"/>
+<video width="320" height="240" controls>
+  <source src="/assets/SwiftUI_WindowGroup/MenuBarExtra.webm" type="video/webm">
+  <source src="/assets/SwiftUI_WindowGroup/MenuBarExtra.ogg" type="video/ogg">
+</video>
+
 
 For more information see - 
 
