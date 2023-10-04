@@ -8,7 +8,7 @@ Window Group is one of six default scene type available to you in 2023. The scen
 
 For example
 - MenuBarExtra, places items in your Mac tool bar.
-
+<img src="/assets/image.jpg"/>
 
 For more information see - 
 

@@ -1,5 +1,5 @@
 ---
-title: Hacking With Swift 
+title: HackingWithSwift 
 ---
 
 ### Welcome!
