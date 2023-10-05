@@ -33,14 +33,16 @@ We will be creating multiple windows in VisionOS using the WindowGroup scene. Wi
   <img src="/assets/MultipleWindowsVisionOS/UpdateApp.png"/>
 </details> 
 
-<details>
-  <summary><i>Update InfoPList</i></summary>
-  <img src="/assets/MultipleWindowsVisionOS/UpdateInfoPList.png"/>
-</details> 
+
 
 <details>
   <summary><i>Create ColorView to present the ViewModel data</i></summary>
   <img src="/assets/MultipleWindowsVisionOS/CreateColorView.png"/>
+</details> 
+
+<details>
+  <summary><i>Update InfoPList</i></summary>
+  <img src="/assets/MultipleWindowsVisionOS/UpdateInfoPList.png"/>
 </details> 
 
 <details>
