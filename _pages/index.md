@@ -21,6 +21,7 @@ permalink: /
 ### My iOS Applications
 ##### [[Affirmation Timer]]
 
+___
 
 ## Reaction Post
 ### WWDC 2023
@@ -35,6 +36,8 @@ permalink: /
 
 ### Ideas
 ##### [[How to Think]]
+
+___
 
 ## How to start your own:  
 
