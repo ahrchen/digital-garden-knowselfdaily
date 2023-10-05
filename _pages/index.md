@@ -7,33 +7,37 @@ permalink: /
 
 #  Raymond's Notes 🌱
 
-## New Stuff
-### [[Create multiple windows in VisionOS]]
+
 
 ## Original Work
-### [[SwiftUI Fundamentals]]
-### [[VisionOS Basic Tutorials]]
+### New Stuff
+#### [[Create multiple windows in VisionOS]]
 
-## My iOS Applications
-### [[Affirmation Timer]]
+### Blog Post
+#### [[SwiftUI Fundamentals]]
+#### [[VisionOS Basic Tutorials]]
 
-## WWDC 2023
-### [[Ten Steps Overview of VisionOS By Apple]]
-### [[Why attend WWDC]]
-### [[New to WWDC]]
+### My iOS Applications
+#### [[Affirmation Timer]]
 
-## iOS Classes
-### [[Stanford CS193p]]
-### [[100_Days_of_SwiftUI]]
-### [[HackingWithSwift]]
+### Interviewing Tips
+#### [[Algorithms]]
 
-## Interviewing Tips
-### [[Algorithms]]
+## Reaction Post
+### WWDC 2023
+#### [[Ten Steps Overview of VisionOS By Apple]]
+#### [[Why attend WWDC]]
+#### [[New to WWDC]]
 
-## Ideas
-### [[How to Think]]
+### iOS Classes
+#### [[Stanford CS193p]]
+#### [[100_Days_of_SwiftUI]]
+#### [[HackingWithSwift]]
 
-#### How to start your own:  
+### Ideas
+#### [[How to Think]]
+
+## How to start your own:  
 
 <p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
   Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
