@@ -25,5 +25,6 @@ For example
 WindowGroup in particular allows you to present a group of identical structured windows, meaning every window in the group maintain independent state.
 <img src="/assets/SwiftUI_WindowGroup/WindowGroup.gif"/>
 
-#### For more details on WindowGroup, see tutorial [[Create multiple windows in VisionOS]]
-#### For more details on Scene, see Apple tutorial [Specifying the view hierarchy of an app using a scene](https://developer.apple.com/tutorials/swiftui-concepts/specifying-the-view-hierarchy-of-an-app-using-a-scene)
+#### For more 
+##### WindowGroup, see tutorial [[Create multiple windows in VisionOS]]
+##### Scene, see Apple tutorial [Specifying the view hierarchy of an app using a scene](https://developer.apple.com/tutorials/swiftui-concepts/specifying-the-view-hierarchy-of-an-app-using-a-scene)
