@@ -11,31 +11,31 @@ permalink: /
 
 ## Original Work
 ### New Stuff
-#### [[Create multiple windows in VisionOS]]
+##### [[Create multiple windows in VisionOS]]
 
 ### Blog Post
-#### [[SwiftUI Fundamentals]]
-#### [[VisionOS Basic Tutorials]]
+##### [[SwiftUI Fundamentals]]
+##### [[VisionOS Basic Tutorials]]
 
 ### My iOS Applications
-#### [[Affirmation Timer]]
+##### [[Affirmation Timer]]
 
 ### Interviewing Tips
-#### [[Algorithms]]
+##### [[Algorithms]]
 
 ## Reaction Post
 ### WWDC 2023
-#### [[Ten Steps Overview of VisionOS By Apple]]
-#### [[Why attend WWDC]]
-#### [[New to WWDC]]
+##### [[Ten Steps Overview of VisionOS By Apple]]
+##### [[Why attend WWDC]]
+##### [[New to WWDC]]
 
 ### iOS Classes
-#### [[Stanford CS193p]]
-#### [[100_Days_of_SwiftUI]]
-#### [[HackingWithSwift]]
+##### [[Stanford CS193p]]
+##### [[100_Days_of_SwiftUI]]
+##### [[HackingWithSwift]]
 
 ### Ideas
-#### [[How to Think]]
+##### [[How to Think]]
 
 ## How to start your own:  
 
