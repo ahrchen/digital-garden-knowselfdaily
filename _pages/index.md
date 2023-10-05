@@ -16,12 +16,11 @@ permalink: /
 ### Blog Post
 ##### [[SwiftUI Fundamentals]]
 ##### [[VisionOS Basic Tutorials]]
+##### [[Algorithms]]
 
 ### My iOS Applications
 ##### [[Affirmation Timer]]
 
-### Interviewing Tips
-##### [[Algorithms]]
 
 ## Reaction Post
 ### WWDC 2023
