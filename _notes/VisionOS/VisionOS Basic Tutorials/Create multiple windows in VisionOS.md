@@ -2,35 +2,51 @@
 title: Create multiple windows in VisionOS
 ---
 
-We will be creating multiple windows in VisionOS using the WindowGroup scene. WindowGroup allows you to present a group of identical structured windows, meaning every window in the group maintain independent state. 
-- [ ]  To learn more about WindowGroup see [[SwiftUI WindowGroup]]
+We will be creating multiple windows in VisionOS using the WindowGroup scene. WindowGroup allows you to present a group of identical structured windows, meaning every window in the group maintain independent state. For more about WindowGroup see [[SwiftUI WindowGroup]]
 
-Here is the final product that we will be creating
+#### Our final product 
 <img src="/assets/SwiftUI_WindowGroup/WindowGroup.gif"/>
 
 #### Step-by-Step
-1. Open Xcode and Create a Project 
-<img src="/assets/MultipleWindowsVisionOS/CreateNewProject.png"/>
+<details>
+  <summary><i>Open Xcode and Create a Project</i></summary>
+  <img src="/assets/MultipleWindowsVisionOS/CreateNewProject.png"/>
+</details>
 
-2. Create ColorString  Model to store data for new windows
-<img src="/assets/MultipleWindowsVisionOS/CreateColorStringModel.png"/>
+<details>
+  <summary><i>Create ColorString  Model to store data for new windows</i></summary>
+  <img src="/assets/MultipleWindowsVisionOS/CreateColorStringModel.png"/>
+</details>
 
-3. Create ColorString  ViewModel to present consistant data
-<img src="/assets/MultipleWindowsVisionOS/CreateColorStringViewModel.png"/>
+<details>
+  <summary><i>Create ColorString  ViewModel to present consistant data</i></summary>
+  <img src="/assets/MultipleWindowsVisionOS/CreateColorStringViewModel.png"/>
+</details>
 
-4. Create ColorListView to present the ViewModel data
-<img src="/assets/MultipleWindowsVisionOS/CreateColorListView.png"/>
+<details>
+  <summary><i>Create ColorListView to present the ViewModel data</i></summary>
+  <img src="/assets/MultipleWindowsVisionOS/CreateColorListView.png"/>
+</details>
 
-5. Update MultipleWindowsApp
-<img src="/assets/MultipleWindowsVisionOS/UpdateApp.png"/>
+<details>
+  <summary><i>Update MultipleWindowsApp</i></summary>
+  <img src="/assets/MultipleWindowsVisionOS/UpdateApp.png"/>
+</details> 
 
-6. Update InfoPList
-<img src="/assets/MultipleWindowsVisionOS/UpdateInfoPList.png"/>
+<details>
+  <summary><i>Update InfoPList</i></summary>
+  <img src="/assets/MultipleWindowsVisionOS/UpdateInfoPList.png"/>
+</details> 
 
-7. Create ColorView to present the ViewModel data
-<img src="/assets/MultipleWindowsVisionOS/CreateColorView.png"/>
+<details>
+  <summary><i>Create ColorView to present the ViewModel data</i></summary>
+  <img src="/assets/MultipleWindowsVisionOS/CreateColorView.png"/>
+</details> 
 
-8. Run the app!
+<details>
+  <summary><i>Run the app!</i></summary>
+  <img src="/assets/SwiftUI_WindowGroup/WindowGroup.gif"/>
+</details> 
 
 #### For more details see the [video](https://youtu.be/IvMpVgMrSwU)
 
