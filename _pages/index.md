@@ -7,8 +7,12 @@ permalink: /
 
 #  Raymond's Notes 🌱
 
+## New Stuff
+### [[Create multiple windows in VisionOS]]
+
 ## Original Work
 ### [[SwiftUI Fundamentals]]
+### [[VisionOS Basic Tutorials]]
 
 ## My iOS Applications
 ### [[Affirmation Timer]]
