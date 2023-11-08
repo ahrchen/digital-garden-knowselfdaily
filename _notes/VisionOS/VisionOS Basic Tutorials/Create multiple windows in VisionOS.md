@@ -44,7 +44,7 @@ We will be creating multiple windows in VisionOS using the WindowGroup scene. Wi
         <li> line 17 - Set the action of the button to open new window of colorString.id </li>
         <li> line 19 - Label the button with colorString.string </li>
         <li> line 22 - Set the background to colorString.color </li>
-        <li> line 23 - Add glass background effect
+        <li> line 23 - Add glass background effect </li>
     </ul>
 </details>
 
