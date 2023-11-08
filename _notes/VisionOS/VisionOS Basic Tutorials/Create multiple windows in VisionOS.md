@@ -16,13 +16,13 @@ We will be creating multiple windows in VisionOS using the WindowGroup scene. Wi
 <details>
   <summary><i>Create ColorString  Model to store data for new windows</i></summary>
   <img src="/assets/MultipleWindowsVisionOS/CreateColorStringModel.png"/>
- 
-- line 9 - Import SwiftUI to get access to the struct Color, you will be storing Color into your ColorString object
-- line 11 - Conform the ColorString struct to the Identifiable protocol, you will be needing this to allow an array of ColorString to use id for subscript
-- line 12 - In order to conform to the Identifiable protocol add an id variable of type UUID
-- line 13, 14 - Add string and color vars of String and Color type respectively. We will need those to populate our views with a String and Color. 
-- line 16 - Create an init function to initialize the struct with the respective variables.  
-
+    <ul> 
+        <li>line 9 - Import SwiftUI to get access to the struct Color, you will be storing Color into your ColorString object</li>
+        <li>line 11 - Conform the ColorString struct to the Identifiable protocol, you will be needing this to allow an array of ColorString to use id for subscript</li>
+        <li>line 12 - In order to conform to the Identifiable protocol add an id variable of type UUID</li>
+        <li>line 13, 14 - Add string and color vars of String and Color type respectively. We will need those to populate our views with a String and Color.</li>
+        <li>line 16 - Create an init function to initialize the struct with the respective variables.</li>  
+    </ul>
 </details>
 
 <details>
