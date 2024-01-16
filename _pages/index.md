@@ -11,7 +11,7 @@ permalink: /
 
 ## Original Work
 ### New Stuff
-##### [[Create multiple windows in VisionOS]]
+##### [[VisionOS Questions]]
 
 ### Blog Post
 ##### [[SwiftUI Fundamentals]]
