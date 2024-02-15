@@ -7,36 +7,37 @@ permalink: /
 
 #  Raymond's Notes 🌱
 
-
-
 ## Original Work
-### New Stuff
-##### [[VisionOS Questions]]
 
-### Blog Post
-##### [[SwiftUI Fundamentals]]
-##### [[VisionOS Basic Tutorials]]
-##### [[Algorithms]]
+### My VisionOS Applications
+##### [[BPM Clapper]]
 
 ### My iOS Applications
 ##### [[Affirmation Timer]]
 
+### VisionOS Videos
+##### [[VisionOS Questions]]
+##### [[VisionOS Basic Tutorials]]
+
 ___
 
-## Reaction Post
-### WWDC 2023
-##### [[VisionOS Documentation Series]]
-##### [[Ten Steps Overview of VisionOS By Apple]]
-##### [[Why attend WWDC]]
-##### [[New to WWDC]]
+## Blog Post
+
+### Interview
+##### [[Algorithms]]
 
 ### iOS Classes
 ##### [[Stanford CS193p]]
 ##### [[100_Days_of_SwiftUI]]
 ##### [[HackingWithSwift]]
 
-### Ideas
-##### [[How to Think]]
+### WWDC 2023
+##### [[VisionOS Documentation Series]]
+##### [[Ten Steps Overview of VisionOS By Apple]]
+##### [[Why attend WWDC]]
+##### [[New to WWDC]]
+
+
 
 ___
 
