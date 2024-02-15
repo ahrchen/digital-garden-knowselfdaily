@@ -6,6 +6,7 @@ title: Affirmation Timer
 <img src="/assets/affirmation_timer_notification_low.jpeg" alt="drawing" width="300"/>
 ### FAQ
 Get your affirmation when you want any minute or hour everyday or every week. 
+Check the app out [Affirmation Timer](https://apps.apple.com/us/app/affirmation-timer/id1622694446)
 
 #### Light Mode
 
@@ -13,4 +14,4 @@ Get your affirmation when you want any minute or hour everyday or every week.
 
 #### Dark Mode
 
-<img src="/assets/affirmations_dark.jpeg" width="9  00"/> 
+<img src="/assets/affirmations_dark.jpeg" width="900"/> 
