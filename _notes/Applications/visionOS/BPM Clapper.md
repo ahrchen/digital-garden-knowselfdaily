@@ -3,10 +3,10 @@ title: BPM Clapper
 ---
 
 ### Welcome!
-<img src="/assets/BPM_Clapper/bpmClapper.gif"/>
-<img src="/assets/BPM_Clapper/bpmClapper0.jpg" alt="drawing" width="300"/>
-<img src="/assets/BPM_Clapper/bpmClapper1.jpg" alt="drawing" width="300"/>
-<img src="/assets/BPM_Clapper/bpmClapper2.jpg" alt="drawing" width="300"/>
+
+<img src="/assets/BPM_Clapper/bpmClapper0.jpg" alt="drawing" width="640"/>
+<img src="/assets/BPM_Clapper/bpmClapper1.jpg" alt="drawing" width="640"/>
+<img src="/assets/BPM_Clapper/bpmClapper2.jpg" alt="drawing" width="640"/>
 
 ### FAQ
 - What is the Privacy Policy?
@@ -18,3 +18,4 @@ title: BPM Clapper
  
  
  App awaiting review, coming soon
+<img src="/assets/BPM_Clapper/bpmClapper.gif"/>
