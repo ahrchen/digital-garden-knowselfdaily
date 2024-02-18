@@ -3,8 +3,10 @@ title: BPM Clapper
 ---
 
 ### Welcome!
-<img src="/assets/BPM_Clapper/bpmClapper1.jpg" alt="drawing" width="600"/>
-<img src="/assets/BPM_Clapper/bpmClapper2.jpg" alt="drawing" width="600"/>
+<img src="/assets/BPM_Clapper/bpmClapper.gif"/>
+<img src="/assets/BPM_Clapper/bpmClapper0.jpg" alt="drawing" width="300"/>
+<img src="/assets/BPM_Clapper/bpmClapper1.jpg" alt="drawing" width="300"/>
+<img src="/assets/BPM_Clapper/bpmClapper2.jpg" alt="drawing" width="300"/>
 
 ### FAQ
 - What is the Privacy Policy?
