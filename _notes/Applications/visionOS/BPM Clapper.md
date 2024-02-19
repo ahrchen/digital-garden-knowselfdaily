@@ -15,5 +15,5 @@ title: BPM Clapper
     - Clap along while you listen to any song and BPM Clapper will get the correct tempo too.
  
  
- App awaiting review, coming soon
+Check out the app: [BPM Clapper] (https://apps.apple.com/us/app/bpm-clapper/id6477964885)
 
