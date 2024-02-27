@@ -11,6 +11,7 @@ permalink: /
 
 ### My VisionOS Applications
 ##### [[BPM Clapper]]
+##### [[BPM Training]]
 
 ### My iOS Applications
 ##### [[Affirmation Timer]]
