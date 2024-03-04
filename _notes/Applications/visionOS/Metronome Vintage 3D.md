@@ -1,5 +1,5 @@
 ---
-title: Metronome VisionPro
+title: Metronome Vintage 3D
 ---
 
 ### Welcome!
