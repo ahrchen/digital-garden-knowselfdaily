@@ -14,5 +14,6 @@ title: Metronome Vintage 3D
     - Set a BPM watch and hear the metronome go. 
  
  
-Check out the app soon:
+Check out the app:
+https://apps.apple.com/us/app/metronome-vintage-3d/id6478818930
 
