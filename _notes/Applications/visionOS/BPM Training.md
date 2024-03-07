@@ -14,5 +14,5 @@ title: BPM Training
     - Select a song  practice your rhythm. 
  
  
-Check out the app here: https://apps.apple.com/us/app/bpm-training/id6478517889
+Check out the app here: [https://apps.apple.com/us/app/bpm-training/id6478517889](https://apps.apple.com/us/app/bpm-training/id6478517889)
 
