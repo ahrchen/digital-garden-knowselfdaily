@@ -20,6 +20,7 @@ permalink: /
 ### VisionOS Videos
 ##### [[VisionOS Questions]]
 ##### [[VisionOS Basic Tutorials]]
+___
 
 ## Blog Post
 
@@ -36,13 +37,11 @@ permalink: /
 ##### [[Ten Steps Overview of VisionOS By Apple]]
 ##### [[Why attend WWDC]]
 ##### [[New to WWDC]]
-
-## Donate
 --- 
 
-<iframe src="https://github.com/sponsors/ahrchen/card" title="Sponsor ahrchen" height="225" width="600" style="border: 0;"></iframe>
-___
+## Donate
 
+<iframe src="https://github.com/sponsors/ahrchen/card" title="Sponsor ahrchen" height="225" width="600" style="border: 0;"></iframe>
 ___
 
 ## How to start your own:  
