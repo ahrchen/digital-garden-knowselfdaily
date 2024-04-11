@@ -2,7 +2,7 @@
 title: Ten Steps Overview of visionOS By Apple
 ---
 
-### Ten Steps Overview of VisionOS By Apple
+### Ten Steps Overview of visionOS By Apple
 
 Apple recommends that we follow this guide to get started with visionOS
 - [Learn about visionOS](https://developer.apple.com/visionos/learn/)
