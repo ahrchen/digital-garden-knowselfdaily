@@ -1,8 +1,8 @@
 ---
-title: Step Eight VisionOS
+title: Step Eight visionOS
 ---
 
-### Step Eight VisionOS
+### Step Eight visionOS
 
 Next Apple recommends that we learn a bit more about Game and Media Development. Lets see how we can develop Game and Media experiences in our application.
 

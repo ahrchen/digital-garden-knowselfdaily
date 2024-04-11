@@ -1,8 +1,8 @@
 ---
-title: Step Five VisionOS
+title: Step Five visionOS
 ---
 
-### Step Five VisionOS
+### Step Five visionOS
 
 Next Apple recommends that we learn a bit more about Tool. Here we learn about optimizations in RealityKit, Rendering, App Power and Performance. We also look at the tips and trick in Xcode 15. Core Location was also introduced.
 

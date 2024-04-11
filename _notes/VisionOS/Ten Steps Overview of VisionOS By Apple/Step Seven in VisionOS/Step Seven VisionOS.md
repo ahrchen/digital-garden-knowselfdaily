@@ -1,8 +1,8 @@
 ---
-title: Step Seven VisionOS
+title: Step Seven visionOS
 ---
 
-### Step Seven VisionOS
+### Step Seven visionOS
 
 Next Apple recommends more tools that we learn a bit  about like Unity and App Store Connect. Here we learn about creating apps using Unity and deploying apps. I believe these will be great for those who are really familar with Unity. But this is very useful to expand your knowledge base in terms of developing for VisionOS and learn the advantages and disadvantage between using Unity and Reality Composer Pro. 
 

@@ -1,8 +1,8 @@
 ---
-title: Step Nine VisionOS
+title: Step Nine visionOS
 ---
 
-### Step Nine VisionOS
+### Step Nine visionOS
 
 Next Apple recommends that we learn a bit more about SharePlay and Web Experiences. Lets see how we can develop SharePlay Experiences and Web Experiences.
 

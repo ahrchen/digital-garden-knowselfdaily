@@ -1,8 +1,8 @@
 ---
-title: Step Ten VisionOS
+title: Step Ten visionOS
 ---
 
-### Step Ten VisionOS
+### Step Ten visionOS
 
 Next Apple recommends that we learn a bit more about Quick Look and iPhone/iPad Spatial Experiences. Lets see how we can develop with Quick Look and create from an existing iPhone/iPad application.
 

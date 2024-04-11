@@ -1,8 +1,8 @@
 ---
-title: Step Four VisionOS
+title: Step Four visionOS
 ---
 
-### Step Four VisionOS
+### Step Four visionOS
 
 Apple recommends that we learn a bit more about Design for Spatial Computing. Design help us shape the UI for a more comfortable and accessible experience. 
 

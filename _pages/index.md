@@ -33,8 +33,8 @@ ___
 ##### [[HackingWithSwift]]
 
 ### WWDC 2023
-##### [[VisionOS Documentation Series]]
-##### [[Ten Steps Overview of VisionOS By Apple]]
+##### [[visionOS Documentation Series]]
+##### [[Ten Steps Overview of visionOS By Apple]]
 ##### [[Why attend WWDC]]
 ##### [[New to WWDC]]
 --- 

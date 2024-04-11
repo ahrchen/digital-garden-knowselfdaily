@@ -1,8 +1,8 @@
 ---
-title: Getting Started VisionOS
+title: Getting Started visionOS
 ---
 
-### Getting Started VisionOS
+### Getting Started visionOS
 
 Apple recommends the four videos below. It should help you make sense of the fundamentals that make up a spatial computing, windows, volumes, and spaces. Design with depth, scale, and immersion. Explore tools like Xcode and Reality Composer Pro. Making accessible spatial experience. 
 

@@ -1,8 +1,8 @@
 ---
-title: Step Six VisionOS
+title: Step Six visionOS
 ---
 
-### Step Six VisionOS
+### Step Six visionOS
 
 Next Apple recommends that we learn a bit more about Reality Composer Pro. Here we learn about creating RealityKit content with USD files using Reality Composer Pro.
 

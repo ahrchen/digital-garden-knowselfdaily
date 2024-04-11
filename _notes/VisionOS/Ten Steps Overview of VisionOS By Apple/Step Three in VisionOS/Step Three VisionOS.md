@@ -1,8 +1,8 @@
 ---
-title: Step Three VisionOS
+title: Step Three visionOS
 ---
 
-### Step Three VisionOS
+### Step Three visionOS
 
 Apple recommends that we learn a bit more about RealityKit and ARKit. RealityKit helps us learn to place interactive 3D models into windows, volumes, ImmersiveSpace and ARKit helps us place the interactive 3D models onto real world objects.
 

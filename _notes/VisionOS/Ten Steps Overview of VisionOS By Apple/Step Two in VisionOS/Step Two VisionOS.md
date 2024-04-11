@@ -1,8 +1,8 @@
 ---
-title: Step Two VisionOS
+title: Step Two visionOS
 ---
 
-### Step Two VisionOS
+### Step Two visionOS
 
 Apple recommends that we learn a bit more about three building blocks of spatial computing Windows, Volumes, and Full Spaces. 
 
